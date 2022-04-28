@@ -7,5 +7,6 @@ Arma 3 addon to expand the 2030s Pacific Setting
  - Avery and the A3 Aegis/Atlas Team {},
  - Jamie,
  - Foxtonnes,
+ - McCat,
  - Oxi,
  - Klayn,
