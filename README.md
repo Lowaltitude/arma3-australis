@@ -9,12 +9,14 @@ Some content may not be APL-SA, and belong to their respective authors (these ar
 if in doubt please ask before using something from this repo in your project
 [discord]()
 ## Credits and Special Thanks
- - Avery and the A3 Aegis/Atlas Team {},
+ - Avery and the A3 Aegis/Atlas Team {Bran,Heliotrope,Ravenholme},
  - Jamie,
  - Foxtonnes,
  - McCat,
  - FireStriker,
  - Midlothian/Charms,
+ - jc980,
+ - Klayn,
  - Oxi,
  - Grave,
- - Klayn
+ - TepacheLoco,
