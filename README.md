@@ -10,7 +10,7 @@ if in doubt please ask us before using something from this repo in your project
 
 
 ## Want to assist the project or looking for more information, come join the Discord!
-[discord](https://discord.gg/Bang9sA)
+[discord](https://discord.gg/Bang9sA) (please don't join just yet we're still working on some things)
 
 ## Credits and Special Thanks
  - Avery and the A3 Aegis/Atlas Team {Bran,Heliotrope,Ravenholme},
