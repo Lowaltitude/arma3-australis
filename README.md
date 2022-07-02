@@ -13,15 +13,16 @@ if in doubt please ask us before using something from this repo in your project
 [discord](https://discord.gg/Bang9sA) (please don't join just yet we're still working on some things)
 
 ## Credits and Special Thanks
+ - Lowaltitude,
+ - Foxtonnes,
  - Avery and the A3 Aegis/Atlas Team {Bran,Heliotrope,Ravenholme},
  - Jamie,
- - Foxtonnes,
+ - Klayn,
  - McCat,
+ - Oxi,
  - FireStriker,
  - Abb0t,
  - Midlothian/Charms,
  - jc980,
- - Klayn,
- - Oxi,
  - Grave,
  - TepacheLoco,
