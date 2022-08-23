@@ -2,7 +2,7 @@
 #include "cfgMods.hpp"
 #include "cfgWorlds.hpp"
 
-class CfgMarkers //Move to cfgMarkers in UI_F_Australis
+/*class CfgMarkers //Move to cfgMarkers in UI_F_Australis
 {
 	class Marker_Flag_Australia
 	{
@@ -14,4 +14,4 @@ class CfgMarkers //Move to cfgMarkers in UI_F_Australis
 		scope = 2; //0 protected, 1 editor, 2 editor/mission
 		markerClass = "Flags";
 	};
-};
+};*/
