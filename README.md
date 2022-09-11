@@ -4,7 +4,7 @@
 Arma 3 addon to expand the 2030s Pacific Setting
 
 ## Content Licensing
-Mod data available here is covered by Arma Public License - Share Alike (APL-SA) [More Details](https://www.bohemia.net/community/licenses/arma-public-license-share-alike) ![APL Image](https://data.bistudio.com/images/license/APL-SA.png)  
+This mod is covered by Arma Public License - Share Alike (APL-SA) [More Details](https://www.bohemia.net/community/licenses/arma-public-license-share-alike) ![APL Image](https://data.bistudio.com/images/license/APL-SA.png)  Please check the license conditions on the BI Website Link before using parts/packages from this mod in your own
 
 
 ## Want to assist the project or looking for more information, come join the Discord!
