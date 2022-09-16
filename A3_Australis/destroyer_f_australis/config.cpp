@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="Lowaltitude";
 		name="Arma 3 Australis - Destroyer Retextures";
-		url="https://www.arma3.com";
+		url=/*TBD*/;
 		requiredAddons[]=
 		{
 			"A3_Australis_Data_F_Australis",

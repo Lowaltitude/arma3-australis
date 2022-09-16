@@ -1,3 +1,4 @@
+//Arma 3 Australis Data_F_Australis Worlds Configs
 class CfgWorlds
 {
 	class GenericNames

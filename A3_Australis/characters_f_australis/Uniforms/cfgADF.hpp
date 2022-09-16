@@ -1,3 +1,4 @@
+//Arma 3 Australis Characters_F_Australis/Uniforms cfgADF
 class Australis_U_B_A_CombatUniform_aucamo_navy: Uniform_Base
 {
 	author = "Lowaltitude,abb0t,Foxtonnes";

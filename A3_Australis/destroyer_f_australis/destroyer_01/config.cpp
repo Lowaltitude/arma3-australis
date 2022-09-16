@@ -1,26 +1,8 @@
-class CfgPatches
-{
-	class A3_Australis_Boat_F_Destroyer_01_Australis
-	{
-		addonRootClass="A3_Australis_Boat_F_Destroyer_Australis";
-		requiredAddons[]=
-		{
-			"A3_Boat_F_Destroyer",
-			"A3_Australis_Data_F_Australis"
-		};
-		requiredVersion=0.1;
-		units[]=
-		{
-			"Land_Destroyer_202_base_F",
-			"Land_Destroyer_202_hull_01_F",
-			"Land_Destroyer_202_hull_05_F",
-			"ShipFlag_AU_F"
-		};
-		weapons[]={};
-	};
-};
+//Arma 3 Australis Destroyer_F_Australis Configuration
+#include "cfgPatches.hpp"
+/*Base Classes*/
 class Eventhandlers;
-class CfgVehicles
+class CfgVehicles // Move to ../cfgVehicles.hpp
 {
 	class NonStrategic;
 	class StaticShip;
@@ -37,6 +19,9 @@ class CfgVehicles
 	class Land_Destroyer_01_hull_base_F;
 	class Land_Destroyer_01_hull_05_F;
 	class Land_Destroyer_01_hull_01_F;
+	
+	/*Arma 3 Australis*/
+	/*HMAS Hammersley*/
 	class Land_Destroyer_202_base_F: Land_Destroyer_01_base_F
 	{
 		author="Lowaltitude";

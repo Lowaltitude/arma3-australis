@@ -1,3 +1,4 @@
+//Arma 3 Australis Data_F_Australis Configuration
 #include "cfgPatches.hpp"
 #include "cfgMods.hpp"
 #include "cfgWorlds.hpp"
