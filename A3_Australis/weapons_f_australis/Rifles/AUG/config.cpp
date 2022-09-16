@@ -1,5 +1,7 @@
 #include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+//Arma 3 Australis Too Many F90s Edition
+//All  of these need custom UI pictures eventually
 class CfgWeapons 
 {
 	class arifle_AUG_base_F;
@@ -12,7 +14,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "Vulcan-90 5.45mm";
+		displayName = "Vulcan 90 5.45mm";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
 		magazines[] =
 		{
@@ -27,7 +29,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "Vulcan-90C 5.45mm";
+		displayName = "Vulcan 90C 5.45mm";
 		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
 		magazines[] =
 		{
@@ -42,8 +44,8 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "Vulcan-90 GL 5.45mm";
-		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa"};
+		displayName = "Vulcan 90 GL 5.45mm";
+		hiddenSelectionsTextures[] = {"\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\AUG_black_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
 		magazines[] =
 		{
 			30Rnd_545x39_AK12_Mag_F,
@@ -57,7 +59,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 5.56mm (Green)";
+		displayName = "AUR 90 5.56mm (Green)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa"};
 		baseWeapon = arifle_AUG_green_F;
@@ -66,7 +68,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90C 5.56mm (Green)";
+		displayName = "AUR 90C 5.56mm (Green)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa"};
 		baseWeapon = arifle_AUG_green_C_F;
@@ -75,16 +77,16 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 GL 5.56mm (Green)";
+		displayName = "AUR 90 GL 5.56mm (Green)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
 		baseWeapon = arifle_AUG_green_GL_F;
 	};
 	class arifle_AUG_gretan_F: arifle_AUG_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 5.56mm (Two-Tone)";
+		displayName = "AUR 90 5.56mm (Two-Tone)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_gretan_CO.paa"};
 		baseWeapon = arifle_AUG_gretan_F;
@@ -93,7 +95,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90C 5.56mm (Two-Tone)";
+		displayName = "AUR 90C 5.56mm (Two-Tone)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_gretan_CO.paa"};
 		baseWeapon = arifle_AUG_gretan_C_F;
@@ -102,16 +104,16 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 GL 5.56mm (Two-Tone)";
+		displayName = "AUR 90 GL 5.56mm (Two-Tone)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_gretan_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_gretan_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
 		baseWeapon = arifle_AUG_gretan_GL_F;
 	};
-		class arifle_AUG_tan_F: arifle_AUG_base_F
+	class arifle_AUG_tan_F: arifle_AUG_base_F
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 5.56mm (Tan)";
+		displayName = "AUR 90 5.56mm (Tan)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_tan_CO.paa"};
 		baseWeapon = arifle_AUG_tan_F;
@@ -120,7 +122,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90C 5.56mm (Tan)";
+		displayName = "AUR 90C 5.56mm (Tan)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_tan_CO.paa"};
 		baseWeapon = arifle_AUG_tan_C_F;
@@ -129,9 +131,90 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
 		scope = public;
-		displayName = "AUR-90 GL 5.56mm (Tan)";
+		displayName = "AUR 90 GL 5.56mm (Tan)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_tan_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_tan_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
 		baseWeapon = arifle_AUG_tan_GL_F;
+	};
+	class arifle_AUG_camo_F: arifle_AUG_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 5.56mm (Camo)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_camo_CO.paa"};
+		baseWeapon = arifle_AUG_camo_F;
+	};
+	class arifle_AUG_camo_C_F: arifle_AUG_C_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90C 5.56mm (Camo)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_camo_CO.paa"};
+		baseWeapon = arifle_AUG_camo_C_F;
+	};
+	class arifle_AUG_camo_GL_F: arifle_AUG_GL_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 GL 5.56mm (Camo)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_camo_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
+		baseWeapon = arifle_AUG_camo_GL_F;
+	};
+	class arifle_AUG_SAS_F: arifle_AUG_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 5.56mm (SAS Special)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_SAS_CO.paa"};
+		baseWeapon = arifle_AUG_SAS_F;
+	};
+	class arifle_AUG_SAS_C_F: arifle_AUG_C_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90C 5.56mm (SAS Special)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_SAS_CO.paa"};
+		baseWeapon = arifle_AUG_SAS_C_F;
+	};
+	class arifle_AUG_SAS_GL_F: arifle_AUG_GL_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 GL 5.56mm (SAS Special)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_SAS_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
+		baseWeapon = arifle_AUG_SAS_GL_F;
+	};
+	class arifle_AUG_owo_F: arifle_AUG_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 5.56mm (OwO)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_owo_CO.paa"};
+		baseWeapon = arifle_AUG_owo_F;
+	};
+	class arifle_AUG_owo_C_F: arifle_AUG_C_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90C 5.56mm (OwO)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_owo_CO.paa"};
+		baseWeapon = arifle_AUG_owo_C_F;
+	};
+	class arifle_AUG_owo_GL_F: arifle_AUG_GL_base_F
+	{
+		author = $STR_A3_A_AveryTheKitty_Luchador_and_Toadie2K;
+		scope = public;
+		displayName = "AUR 90 GL 5.56mm (OwO)";
+		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_F_X_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_owo_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
+		baseWeapon = arifle_AUG_owo_GL_F;
 	};
 };

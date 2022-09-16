@@ -1,1 +1,1 @@
-//Map Markers pending
+//Arma 3 Australis UI_F_Australis Map Markers

@@ -1,3 +1,4 @@
+//Arma 3 Australis UI_F_Australis Unit Insignias
 class CfgUnitInsignia
 {
 	class CTRG_12
