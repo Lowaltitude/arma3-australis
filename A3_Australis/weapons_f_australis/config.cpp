@@ -40,11 +40,12 @@ class PointerSlot_Launcher;
 #include "cfgMagazines.hpp"
 #include "cfgMagazineWells.hpp"
 #include "cfgRecoils.hpp"
+#include "cfgWeapons.hpp"
 
 /*Cfg Weapons*/
-class CfgWeapons //Move to cfgWeapons.hpp later
-{
-	#include "cfgPistols.hpp"
-	#include "cfgRifles.hpp"
-	#include "cfgMachineguns.hpp"
-};
+// class CfgWeapons //Move to cfgWeapons.hpp later
+// {
+// 	#include "cfgPistols.hpp"
+// 	#include "cfgRifles.hpp"
+// 	#include "cfgMachineguns.hpp"
+// };
