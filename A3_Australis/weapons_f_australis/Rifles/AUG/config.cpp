@@ -79,7 +79,7 @@ class CfgWeapons
 		scope = public;
 		displayName = "AUR 90 GL 5.56mm (Green)";
 		picture = "\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\UI\icon_arifle_AUG_black_F_X_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa","\A3_Atlas\Weapons_F_Atlas\Rifles\AUG\Data\GL40_black_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\AUG_green_CO.paa","\A3_Australis\Weapons_F_Australis\Rifles\AUG\Data\GL40_green_CO.paa"};
 		baseWeapon = arifle_AUG_green_GL_F;
 	};
 	class arifle_AUG_gretan_F: arifle_AUG_base_F
