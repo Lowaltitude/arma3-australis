@@ -3,6 +3,8 @@ class CfgMagazines
 {
 	/*Base Classes*/
 	class CA_Magazine;
+	class HandGrenade;
+	class SatchelCharge_Remote_Mag;
 	
 	/*Arma 3 Australis*/
 	/*7.62 mm Boxes*/
@@ -95,4 +97,52 @@ class CfgMagazines
 	};
 	
 	/*9mm Hi-Power Mags*/
+	
+	/*Throwable Satchel Charge Magazine*/
+	class HandGrenade_Satchel: HandGrenade
+	{
+		author = "Lowaltitude";
+		scope = 2;
+		mass = 80;
+		displayName = "Satchel Charge";
+		picture = "\A3\Weapons_f\data\UI\gear_satchel_CA.paa";
+		model = "\A3\Weapons_F\Explosives\satchel_i";
+		ammo = "GrenadeSatchel";
+		displayNameShort = "Satchel Charge";
+	};
+	
+	/*Throwable Demo Charge Magazine*/
+	class DemoCharge_RemoteThrow_Mag: SatchelCharge_Remote_Mag
+	{
+		author="Lowaltitude";
+		scope=2;
+		mass=20;
+		displayName="Demo Charge";
+		picture="\A3\Weapons_F\Data\UI\gear_c4_charge_small_CA.paa";
+		model="\A3\Weapons_F\Explosives\c4_charge_small";
+		ammo="DemoCharge_RemoteThrow_Ammo";
+		displayNameShort = "Demo Charge";
+		descriptionShort="$STR_A3_cfgMagazines_DemoCharge1";
+		class Library
+		{
+			libTextDesc="$STR_A3_cfgMagazines_DemoCharge_Library0";
+		};
+	};
+	
+	/*Sticky Grenade Magazine*/
+	class HandGrenade_Sticky: HandGrenade
+	{
+		author = "Lowaltitude";
+		scope = 2;
+		mass = 10;
+		displayName = "Semtex Grenade";
+		picture = "\A3\Weapons_f\data\UI\gear_satchel_CA.paa";
+		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d";
+		ammo = "Grenade_Sticky_Ammo";
+		displayNameShort = "Semtex Grenade";
+	};
+	
+	
+	/*Western Sahara Compatability Patch for Aegis*/
+	#include "cfgWSPatch.hpp"
 };

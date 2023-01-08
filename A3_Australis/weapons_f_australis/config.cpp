@@ -37,6 +37,7 @@ class PointerSlot_Pistol;
 class PointerSlot_Launcher;
 
 /*Configs*/
+#include "cfgAmmo.hpp"
 #include "cfgMagazines.hpp"
 #include "cfgMagazineWells.hpp"
 #include "cfgRecoils.hpp"
@@ -47,4 +48,5 @@ class CfgWeapons //Move to cfgWeapons.hpp later
 	#include "cfgPistols.hpp"
 	#include "cfgRifles.hpp"
 	#include "cfgMachineguns.hpp"
+	#include "cfgThrow.hpp"
 };

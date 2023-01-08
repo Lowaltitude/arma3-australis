@@ -8,4 +8,11 @@ class CfgUnitInsignia
 		author = "Lowaltitude";
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class Kiwi_Patch
+	{
+		displayName = "Kiwi";
+		texture = "\A3_Australis\UI_F_Australis\Data\CfgUnitInsignia\insignia_Kiwi_CA.paa";
+		author = "Lowaltitude";
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 };

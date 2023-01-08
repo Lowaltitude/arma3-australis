@@ -368,7 +368,7 @@ class Australis_GPMG_01_F:	Australis_GPMG_01_base_F //Change to MMG_MG121_F
 	author = "Lowaltitude";
 	scope= 2;
 	baseWeapon = Australis_GPMG_01_F; 
-	displayName = "GPMG-5 7.62 mm"; /*Avery has Suggested MG121*/
+	displayName = "MG-121 7.62 mm"; /*Avery has Suggested MG121*/
 };
 
 /*Aravah 5.56 mm*/
