@@ -360,17 +360,17 @@ class CfgWeapons
 	};
 	
 	//NZDF Woodland
-	/*class H_PatrolBooniehat_nzcamo_wdl_F: H_PatrolBooniehat_aucamo_F 
+	class H_PatrolBooniehat_nzcamo_wdl_F: H_PatrolBooniehat_aucamo_F 
 	{
 		scope=2;
 		author="OokamiJamie";
-		displayName="Patrol Booniehat (MTP-W)";
+		displayName="Patrol Booniehat [NZDF] (Woodland)";
 		picture="\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"\A3_Australis\Characters_F_Australis\Headgear\Data\patrolboonie_nzcamo_wdl_CO.paa"
 		};	
-	};*/ // Not Yet Implemented
+	};
 	
 	//NZDF Arid
 	class H_PatrolBooniehat_nzcamo_ard_F: H_PatrolBooniehat_aucamo_F 
@@ -381,7 +381,7 @@ class CfgWeapons
 		picture="\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\A3_Australis\Characters_F_Australis\Headgear\Data\patrolboonie_nzcamo_ard2_CO.paa"
+			"\A3_Australis\Characters_F_Australis\Headgear\Data\patrolboonie_nzcamo_ard_CO.paa"
 		};	
 	};
 	//AAF
@@ -394,6 +394,19 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"\A3_Australis\Characters_F_Australis\Headgear\Data\patrolboonie_aaf_CO.paa"
+		};	
+	};
+
+	//HIMF
+	class H_PatrolBooniehat_jungle_F: H_PatrolBooniehat_aucamo_F 
+	{
+		scope=2;
+		author="OokamiJamie";
+		displayName="Patrol Booniehat [HIMF]";
+		picture="\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\A3_Australis\Characters_F_Australis\Headgear\Data\patrolboonie_jungle_CO.paa"
 		};	
 	};
 	
@@ -449,7 +462,7 @@ class CfgWeapons
 	//ADF
 	class H_B_Helmet_canvas_aucamo: H_HelmetIA
 	{
-	  	author = "Jamie";
+	  	author = "OokamiJamie";
 		displayName = "Modular Helmet (ADF)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_CO.paa"};
@@ -458,7 +471,7 @@ class CfgWeapons
 	//ADF Arid
 	class H_B_Helmet_canvas_aucamo_ard: H_HelmetIA
 	{
-	  	author = "Jamie";
+	  	author = "OokamiJamie";
 		displayName = "Modular Helmet (ADF Arid)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_ard_CO.paa"};
@@ -467,7 +480,7 @@ class CfgWeapons
 	//ADF Tropic
 	class H_B_Helmet_canvas_aucamo_trp: H_HelmetIA
 	{
-	  	author = "Jamie";
+	  	author = "OokamiJamie";
 		displayName = "Modular Helmet (ADF Tropic)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_trp_CO.paa"};
@@ -476,7 +489,7 @@ class CfgWeapons
 	//ADF Naval
 	class H_B_Helmet_canvas_aucamo_navy: H_HelmetIA
 	{
-	  	author = "Jamie";
+	  	author = "OokamiJamie";
 		displayName = "Modular Helmet (ADF Naval)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_navy_CO.paa"};
