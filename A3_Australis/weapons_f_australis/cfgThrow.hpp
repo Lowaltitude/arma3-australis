@@ -8,9 +8,9 @@
 	{
         muzzles[] +=
         {
-            HandGrenade_SatchelMuzzle,
-			DemoCharge_ThrowMuzzle,
-			HandGrenade_StickyMuzzle
+			"HandGrenade_StickyMuzzle",
+			"HandGrenade_SatchelMuzzle",
+			"DemoCharge_ThrowMuzzle"
         };
         class ThrowMuzzle;
 		class HandGrenade_SatchelMuzzle: ThrowMuzzle

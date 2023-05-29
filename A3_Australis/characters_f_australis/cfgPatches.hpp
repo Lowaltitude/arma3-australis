@@ -8,6 +8,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Aegis_Characters_F_Aegis,
+			A3_Atlas_Characters_F_Atlas,
 			A3_Atlas_Data_F_Atlas,
 			A3_Australis_Data_F_Australis,
 			A3_Characters_F_Enoch,

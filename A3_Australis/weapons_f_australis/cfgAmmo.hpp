@@ -59,6 +59,7 @@ class cfgAmmo
 	//Sticky Grenade
 	class Grenade_Sticky_Ammo: ShotDeployBase
 	{
+		scope = 2;
 		submunitionAmmo = Grenade_Sticky_Submunition_Stage1;
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east_throw.p3d"; //Aegis RGO Placeholder
 		mineFloating = 1000;

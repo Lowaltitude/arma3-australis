@@ -13,4 +13,6 @@ class CfgWeapons //Move to cfgVehicles.hpp later
 	/*Configs by Faction*/
 	#include "cfgADF.hpp"
 	#include "cfgNZDF.hpp"
+	#include "cfgPU.hpp"
+	#include "cfgOPFOR.hpp"
 };

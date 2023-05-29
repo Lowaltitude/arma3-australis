@@ -79,6 +79,26 @@ class CfgWeapons
 		};
 	};
 	
+	//ADF Semi-Arid
+		class H_Booniehat_aucamo_srd_F: H_Booniehat_aucamo_F
+	{
+		author = "Lowaltitude and abb0t";
+		displayName = "Booniehat [ADF] (Actually Australian)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_srd_CO.paa"};
+	};
+	class H_Booniehat_aucamo_srd_hs_F: H_Booniehat_aucamo_ard_F
+	{
+		author = "Lowaltitude and abb0t";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
+		displayName = "Booniehat [ADF] (Actually Australian, Headset)";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
+	
 	//ADF Tropic
 	class H_Booniehat_aucamo_trp_F: H_Booniehat_khk
 	{

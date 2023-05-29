@@ -20,10 +20,10 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
-			class RAAF_Grey_36Sqn
+			class ADFGrey
 			{
 				displayName = "ADF (Grey)";
-				author = $STR_A3_A_BranFlakes;
+				author = $STR_A3_A_Lowaltitude;
 				textures[] =
 				{
 					"\A3_Australis\Air_F_australis\Plane_Transport_01\Data\Plane_Transport_01_body_adf_grey_CO.paa",
@@ -37,7 +37,7 @@ class CfgVehicles
 		textureList[] =
 		{
 			ADF,1,
-			RAAF_Grey_36Sqn,1,
+			ADFGrey,1,
 		};
 	};
 
