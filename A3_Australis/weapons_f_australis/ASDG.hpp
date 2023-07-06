@@ -1,6 +1,7 @@
 //Arma 3 Australis Weapons_F_Australis ASDG Rails Configuration
 /*Base Classes*/
 class asdg_OpticRail;
+class asdg_PistolUnderRail;
 class asdg_MuzzleSlot_9MM;
 class asdg_MuzzleSlot_762;
 class asdg_MuzzleSlot_556;

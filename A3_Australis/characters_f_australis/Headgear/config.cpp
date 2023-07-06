@@ -514,8 +514,16 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_navy_CO.paa"};
 	};
+	//ADF Semi-Arid
+	class H_B_Helmet_canvas_aucamo_srd: H_HelmetIA
+	{
+	  	author = "OokamiJamie";
+		displayName = "Modular Helmet (ADF Semi-Arid)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_srd_CO.paa"};
+	};
 	
-	//Advanced Modular Helmet
+	/*Advanced Modular Helmet*/
 	//ADF Naval
 	class H_HelmetHBK_aucamo_navy_F: H_HelmetHBK_base_F
 	{
@@ -548,5 +556,38 @@ class CfgWeapons
 		displayName = "Advanced Modular Helmet [ADF] (Naval, Chops)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_navy_CO.paa"};
+	};
+	//ADF Semi-Arid
+	class H_HelmetHBK_aucamo_srd_F: H_HelmetHBK_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
+	};
+	class H_HelmetHBK_aucamo_srd_headset_F: H_HelmetHBK_headset_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Headset)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
+	};
+	class H_HelmetHBK_aucamo_srd_ear_F: H_HelmetHBK_ear_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Ear Protectors)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
+	};
+	class H_HelmetHBK_aucamo_srd_chops_F: H_HelmetHBK_chops_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Chops)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
 	};
 };

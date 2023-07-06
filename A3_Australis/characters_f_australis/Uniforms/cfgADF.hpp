@@ -142,6 +142,23 @@ class Australis_U_B_A_CombatUniform_shortsleeve_aucamo_navy: Uniform_Base
 		mass = 40;
 	};
 };
+class Australis_U_B_A_CombatUniform_sweater_aucamo_nvy: Uniform_Base
+{
+	author = "Lowaltitude,abb0t,Foxtonnes";
+	scope = public;
+	displayName = Combat Fatigues [ADF] (Naval, Sweater);
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Australis_B_A_CombatFatigues_01_sweater_aucamo_nvy_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
 
 /*ADF Woodland*/
 class Australis_U_B_A_CombatUniform_sweater_aucamo: Uniform_Base
@@ -199,6 +216,23 @@ class Australis_U_B_A_CombatUniform_srd: Uniform_Base
 		mass = 40;
 	};
 };
+class Australis_U_B_A_CombatUniform_shortsleeve_aucamo_srd: Uniform_Base
+{
+	author = "Lowaltitude,abb0t,Foxtonnes";
+	scope = public;
+	displayName = Combat Fatigues [ADF] (Semi-Arid, Rolled-Up);
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Australis_B_A_CombatFatigues_01_RolledUp_aucamo_srd_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
 class Australis_U_B_A_CombatUniform_aucamo_srd: Uniform_Base
 {
 	author = "Lowaltitude,abb0t,Foxtonnes";
@@ -212,6 +246,23 @@ class Australis_U_B_A_CombatUniform_aucamo_srd: Uniform_Base
 	{
 		uniformModel = "-";
 		uniformClass = Australis_B_A_CombatFatigues_01_aucamo_srd_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+class Australis_U_B_A_CombatUniform_sweater_aucamo_srd: Uniform_Base
+{
+	author = "Lowaltitude,abb0t,Foxtonnes";
+	scope = public;
+	displayName = Combat Fatigues [ADF] (Semi-Arid, Sweater);
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_srd_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Australis_B_A_CombatFatigues_01_sweater_aucamo_srd_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

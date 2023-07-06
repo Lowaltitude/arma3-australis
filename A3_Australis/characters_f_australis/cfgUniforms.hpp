@@ -73,6 +73,21 @@ class Australis_B_A_CombatFatigues_01_aucamo_srd_F: I_soldier_F
 	uniformClass = Australis_U_B_A_CombatUniform_aucamo_srd;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa"};
 };
+class Australis_B_A_CombatFatigues_01_sweater_aucamo_srd_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
+	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo_srd;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_srd_CO.paa"};
+};
+class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_srd_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_A_CombatUniform_shortsleeve_aucamo_srd;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa"};
+};
 
 /*ADF Arid*/
 class Australis_B_A_CombatFatigues_01_sweater_aucamo_ard_F: I_soldier_F
@@ -118,6 +133,14 @@ class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_navy_F: I_soldier_lite_F
   	scopeCurator = private;
 	uniformClass = Australis_U_B_A_CombatUniform_shortsleeve_aucamo_navy;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_nvy_CO.paa"};
+};
+class Australis_B_A_CombatFatigues_01_sweater_aucamo_nvy_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
+	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo_navy;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_nvy_CO.paa"};
 };
 
 

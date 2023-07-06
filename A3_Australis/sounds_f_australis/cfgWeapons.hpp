@@ -8,6 +8,7 @@ class CfgWeapons
 {
 	class Rifle_Long_Base_F;
 	class LMG_Zafir_F;
+	class hgun_ACPC2_F;
 	/*Arma 3 Australis*/
 	/*MG 121 7.62 mm*/
 	class Australis_GPMG_01_base_F: Rifle_Long_Base_F
@@ -57,6 +58,7 @@ class CfgWeapons
 			};
 		};
 	};
+	/*Aravah 5.56mm*/
 	class LMG_Aravah_F: Rifle_Long_Base_F
 	{
 		class Single: Mode_SemiAuto
@@ -100,6 +102,32 @@ class CfgWeapons
 					Zafir_silencerShot_SoundSet,
 					Zafir_silencerTail_SoundSet,
 					Zafir_silencerInteriorTail_SoundSet
+				};
+			};
+		};
+	};
+	/*ABP-M3 9mm*/
+	class hgun_ABPM3_F : hgun_ACPC2_F
+	{
+		class Single: Mode_SemiAuto
+		{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[]=
+				{
+					"ACPC2_Shot_SoundSet",
+					"ACPC2_Tail_SoundSet",
+					"ACPC2_InteriorTail_SoundSet"
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				SoundSetShot[]=
+				{
+					"ACPC2_silencerShot_SoundSet",
+					"ACPC2_silencerTail_SoundSet",
+					"ACPC2_silencerInteriorTail_SoundSet"
 				};
 			};
 		};

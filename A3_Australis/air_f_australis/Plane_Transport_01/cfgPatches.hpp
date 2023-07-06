@@ -9,6 +9,8 @@ class CfgPatches
         {
 			//Arma 3 Aegis
 			Plane_Transport_01_base_F,
+			Plane_Transport_01_infantry_base_F,
+			Plane_Transport_01_vehicle_base_F,
             // ADF
             Atlas_B_A_Plane_Transport_01_infantry_F,
             Atlas_B_A_Plane_Transport_01_vehicle_F
