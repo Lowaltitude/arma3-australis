@@ -72,3 +72,22 @@ class Australis_U_B_K_CombatUniform_shortsleeve_nzcamo_ard: Uniform_Base
 };
 
 /*NZDF Woodland*/
+
+/*NZDF Navy*/
+class Australis_U_B_K_CombatUniform_nzcamo_nvy: Uniform_Base
+{
+	author = "Lowaltitude";
+	scope = public;
+	displayName = Combat Fatigues [NZDF] (Navy);
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_E_Soldier_01_nzcamo_nvy_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Australis_B_K_CombatUniform_01_nzcamo_nvy_F;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};

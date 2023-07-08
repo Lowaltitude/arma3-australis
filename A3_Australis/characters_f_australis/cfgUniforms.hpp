@@ -170,7 +170,22 @@ class Australis_B_K_CombatFatigues_01_RolledUp_nzcamo_ard_F: I_soldier_lite_F
 	uniformClass = Australis_U_B_K_CombatUniform_shortsleeve_nzcamo_ard;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_ard_CO.paa"};
 };
-
+/*NZDF Navy*/
+class Australis_B_K_CombatUniform_01_nzcamo_nvy_F: I_E_Uniform_01_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_K_CombatUniform_nzcamo_nvy;
+	hiddenSelectionsTextures[] =
+	{
+		//Shirt (LDF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_E_Soldier_01_nzcamo_nvy_CO.paa",
+		//Pants (AAF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_nvy_CO.paa",
+		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
 /*Pacfic Union - Timor Leste*/
 class Australis_B_P_CombatFatigues_01_tlcamo_F: I_soldier_F
 {
