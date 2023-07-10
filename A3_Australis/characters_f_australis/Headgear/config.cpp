@@ -20,6 +20,7 @@ class CfgWeapons
 	};
 	class H_Cap_red;
 	class H_HelmetB;
+	class H_HelmetSpecB;
 	class H_HelmetIA;
 	class H_Beret_02;
 	class H_MilCap_ocamo;
@@ -464,6 +465,14 @@ class CfgWeapons
 	{
 		author = "Charms,Lowaltitude";
 		displayName = "Combat Helmet [NZDF] (Cover)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
+	};
+	class H_HelmetSpecB_nzcamo_cover: H_HelmetSpecB
+	{
+		author = "Charms,Lowaltitude";
+		displayName = "Enhanced Combat Helmet [NZDF] (Cover)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
