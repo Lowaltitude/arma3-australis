@@ -15,4 +15,11 @@ class CfgUnitInsignia
 		author = "Lowaltitude";
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class flag_PU
+	{
+		displayName = "Pacific Union";
+		texture = "\A3_Australis\UI_F_Australis\Data\CfgUnitInsignia\insignia_flag_pu_CA.paa";
+		author = "Lowaltitude";
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 };

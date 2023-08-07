@@ -14,5 +14,7 @@ class CfgWeapons //Move to cfgVehicles.hpp later
 	#include "cfgADF.hpp"
 	#include "cfgNZDF.hpp"
 	#include "cfgPU.hpp"
+	#include "cfgFrance.hpp"
 	#include "cfgOPFOR.hpp"
+	#include "cfgTEST.hpp"
 };
