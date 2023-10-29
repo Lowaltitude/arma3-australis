@@ -11,7 +11,7 @@ class CfgWeapons
 	class hgun_ACPC2_F;
 	/*Arma 3 Australis*/
 	/*MG 121 7.62 mm*/
-	class Australis_GPMG_01_base_F: Rifle_Long_Base_F
+	class Australis_MMG_MG121_base_F: Rifle_Long_Base_F
 	{
 		class manual: Mode_FullAuto
 		{

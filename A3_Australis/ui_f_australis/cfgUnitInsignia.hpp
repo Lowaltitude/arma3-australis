@@ -22,4 +22,18 @@ class CfgUnitInsignia
 		author = "Lowaltitude";
 		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
+	class RM_Commando
+	{
+		displayName = "Royal Marines Commando Flash";
+		texture = "\A3_Australis\UI_F_Australis\Data\CfgUnitInsignia\insignia_rm_commando_CA.paa";
+		author = "Lowaltitude";
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
+	class TF_Scarlet
+	{
+		displayName = "TF Scarlet NAS";
+		texture = "\A3_Australis\UI_F_Australis\Data\CfgUnitInsignia\insignia_spectrum_CA.paa";
+		author = "Lowaltitude";
+		material = "\A3\UI_F\Data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+	};
 };

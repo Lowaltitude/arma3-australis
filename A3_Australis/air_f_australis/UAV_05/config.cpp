@@ -18,8 +18,8 @@ class CfgVehicles
 				author = $STR_A3_A_Lowaltitude;
 				textures[] =
 				{
-					"\A3_australis\Air_F_australis\UAV_05\Data\uav05_fuselage_01_aucamo_co.paa",
-					"\A3_australis\Air_F_australis\UAV_05\Data\uav05_fuselage_02_aucamo_co.paa",
+					"\A3_australis\Air_F_australis\UAV_05\Data\uav05_fuselage_01_adf_co.paa",
+					"\A3_australis\Air_F_australis\UAV_05\Data\uav05_fuselage_02_adf_co.paa",
 				};
 				factions[] = {};
 			};

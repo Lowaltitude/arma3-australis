@@ -10,11 +10,11 @@ class Rifle_Long_Base_F: Rifle_Base_F
 
 /*Arma 3 Australis*/
 /*MG121/GPMG-5 7.62 mm*/
-class Australis_GPMG_01_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
+class Australis_MMG_MG121_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
 {
 		author="Lowaltitude";
-		_generalMacro="Australis_GPMG_01_base_F";
-		baseWeapon="Australis_GPMG_01_F";
+		_generalMacro="Australis_MMG_MG121_F";
+		baseWeapon="Australis_MMG_MG121_F";
 		scope=0;
 		model="\A3\Weapons_F_Mark\Machineguns\MMG_01\MMG_01_F.p3d";
 		displayName="$STR_A3_CfgWeapons_MMG_01_base_F0";
@@ -44,7 +44,7 @@ class Australis_GPMG_01_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
 		{
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\MMG_01\Data\MMG_01_01_black.rvmat",
 			"\A3_Aegis\Weapons_F_Aegis\Machineguns\MMG_01\Data\MMG_01_02_black.rvmat",
-			"\A3_Aegis\Weapons_F_Aegis\Machineguns\MMG_01\Data\MMG_01_03_black.rvmat"
+			"\A3_Australis\Weapons_F_Australis\Machineguns\MMG_01\Data\MMG_01_03_aucamo.rvmat"
 		};
 		magazines[] = 
 		{
@@ -77,7 +77,7 @@ class Australis_GPMG_01_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			mass=190;
+			mass=215;
 			class MuzzleSlot: MuzzleSlot_93
 			{
 				iconPosition[]={0.059999999,0.40000001};
@@ -363,11 +363,11 @@ class Australis_GPMG_01_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
 		aiDispersionCoefY=25;
 		aiDispersionCoefX=20;
 };
-class Australis_GPMG_01_F:	Australis_GPMG_01_base_F //Change to MMG_MG121_F
+class Australis_MMG_MG121_F: Australis_MMG_MG121_base_F //Change to MMG_MG121_F
 {
 	author = "Lowaltitude";
 	scope= 2;
-	baseWeapon = Australis_GPMG_01_F; 
+	baseWeapon = Australis_MMG_MG121_F; 
 	displayName = "MG-121 7.62 mm"; /*Avery has Suggested MG121*/
 };
 

@@ -348,6 +348,14 @@ class Australis_Test_Uniform_shortsleeve_AAF_01_holder: I_soldier_lite_F
 	uniformClass = Australis_U_B_P_CombatUniform_shortsleeve_tlcamo;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_P_Soldier_01_tlcamo_CO.paa"};
 };
+class Australis_Test_Uniform_sweater_AAF_01_holder: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
+	uniformClass = Australis_Test_Uniform_sweater_AAF_01;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_A_Soldier_01_sweater_CO.paa"};
+};
 class Australis_Test_Uniform_AAF_02_holder: I_soldier_F
 {
   	scope = protected;

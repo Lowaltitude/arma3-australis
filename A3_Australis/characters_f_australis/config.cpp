@@ -1,5 +1,10 @@
 //Arma 3 Australis Characters_F_Australis Configuration
 #include "cfgPatches.hpp"
+
+/*Configuration*/
+#include "cfgFaces.hpp"
+
+//Move to cfgVehicles.hpp
 class CfgVehicles
 {
 	/*Base Classes*/

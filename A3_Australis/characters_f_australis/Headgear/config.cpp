@@ -50,7 +50,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_beret02_cdo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_beret02_cdo.rvmat"};
 	};
-	//BAF Para Beret
+	//BAF Para Beret move to Aegis TBD
 	class H_Beret_red_02: H_Beret_red 
 	{
 		scope = public;
@@ -213,6 +213,26 @@ class CfgWeapons
 		author = "Lowaltitude";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
 		displayName = "Booniehat [NZDF] (Naval, Headset)";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
+	
+	//Pacific Union Peacekeepers
+	class H_Booniehat_pngcamo_F: H_Booniehat_khk
+	{
+		author = "Lowaltitude";
+		displayName = "Booniehat [PNGDF]";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_pngcamo_CO.paa"};
+	};
+	class H_Booniehat_pngcamo_hs_F: H_Booniehat_pngcamo_F
+	{
+		author = "Lowaltitude";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
+		displayName = "Booniehat [PNGDF] (Headset)";
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -466,7 +486,7 @@ class CfgWeapons
 		author = "Charms,Lowaltitude";
 		displayName = "Combat Helmet [NZDF] (Cover)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
 	};
 	class H_HelmetSpecB_nzcamo_cover: H_HelmetSpecB
@@ -474,7 +494,7 @@ class CfgWeapons
 		author = "Charms,Lowaltitude";
 		displayName = "Enhanced Combat Helmet [NZDF] (Cover)";
 		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
 	};
 	

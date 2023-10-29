@@ -35,6 +35,18 @@ class CfgVehicles
 				};
 				factions[] = {};
 			};
+			class ADFGrey2
+			{
+				displayName = "ADF (Grey V2)";
+				author = $STR_A3_A_Lowaltitude;
+				textures[] =
+				{
+					"\A3_australis\Air_F_australis\Plane_Transport_01\Data\Plane_Transport_01_body_adf_grey2_CO.paa",
+					"\A3_australis\Air_F_australis\Plane_Transport_01\Data\Plane_Transport_01_wings_adf_grey2_CO.paa",
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+				};
+				factions[] = {};
+			};
 			class NZDF
 			{
 				displayName = "NZDF";
