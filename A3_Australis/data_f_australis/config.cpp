@@ -1,7 +1,10 @@
 //Arma 3 Australis Data_F_Australis Configuration
+#include "\A3_Aegis\basicDefines_A3.hpp"
 #include "cfgPatches.hpp"
+#include "cfgFactionClasses.hpp"
 #include "cfgMods.hpp"
 #include "cfgWorlds.hpp"
+
 
 /*class CfgMarkers //Move to cfgMarkers in UI_F_Australis
 {

@@ -385,3 +385,17 @@ class Australis_Test_Uniform_LDF_01_holder: I_E_Uniform_01_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
+
+//Pilot Suit (Fighter Pilot)
+class Atlas_B_A_PilotCoveralls_01_F: B_Pilot_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Atlas_U_B_A_PilotCoveralls;
+	hiddenSelections[] =
+	{
+		camo,
+		insignia
+	};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\pilot_suit_aucamo_CO.paa"};
+};

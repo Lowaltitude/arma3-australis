@@ -6,8 +6,5 @@ class CfgVehicles
 	class Atlas_B_A_MBT_03_base_F;
 	
 	/*Arma 3 Atlas*/
-	class Atlas_B_A_MBT_03_cannon_F: Atlas_B_A_MBT_03_base_F 
-	{
-		displayName = "Leopard 3A5";
-	};
+	class Atlas_B_A_MBT_03_cannon_F: Atlas_B_A_MBT_03_base_F{};
 };

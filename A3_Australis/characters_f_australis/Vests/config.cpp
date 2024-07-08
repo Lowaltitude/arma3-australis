@@ -29,20 +29,20 @@ class cfgWeapons
 	{
 		author = $STR_A3_A_Lowaltitude;
 		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrier1_aucamo_F_CA.paa";
-		displayName = "Carrier Lite [ADF] (Semi Arid)";
+		displayName = "Carrier Lite [ADF] (AMC)";
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Australis\Characters_F_Australis\Vests\Data\vests_aucamo_srd_CO.paa"
+			"\A3_Australis\Characters_F_Australis\Vests\Data\vests_aucamo_CO.paa"
 		};
 	};
 	class V_PlateCarrier2_aucamo_srd_F: V_PlateCarrier2_rgr
 	{
 		author = $STR_A3_A_Lowaltitude;
 		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrier2_aucamo_F_CA.paa";
-		displayName = "Carrier Rig [ADF] (Semi Arid";
+		displayName = "Carrier Rig [ADF] (AMC)";
 		hiddenSelectionsTextures[] =
 		{
-			"\A3_Australis\Characters_F_Australis\Vests\Data\vests_aucamo_srd_CO.paa"
+			"\A3_Australis\Characters_F_Australis\Vests\Data\vests_aucamo_CO.paa"
 		};
 	};
 };

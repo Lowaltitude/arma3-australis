@@ -4,4 +4,5 @@ class CfgWeapons //Moved from config.cpp
 	#include "cfgRifles.hpp"
 	#include "cfgMachineguns.hpp"
 	#include "cfgThrow.hpp"
+	#include "presets.hpp"
 };

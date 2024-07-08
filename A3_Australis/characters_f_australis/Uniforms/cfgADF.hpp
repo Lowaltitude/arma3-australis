@@ -341,3 +341,22 @@ class U_B_Shadow_vest_tgr_f: Uniform_Base
 		mass = 40;
 	};
 };
+
+//Pilot Suit (Fighter Pilot)
+class Atlas_U_B_A_PilotCoveralls: Uniform_Base
+{
+	author = $STR_A3_Lowaltitude;
+	scope = public;
+	displayName = $STR_A3_A_CfgWeapons_U_B_A_PilotCoveralls0;
+	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_PilotCoveralls_CA.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\pilot_suit_aucamo_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Atlas_B_A_PilotCoveralls_01_F;
+		containerClass = Supply60;
+		mass = 80;
+	};
+};

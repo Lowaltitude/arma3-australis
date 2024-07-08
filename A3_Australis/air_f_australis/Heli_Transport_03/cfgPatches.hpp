@@ -15,7 +15,7 @@ class CfgPatches
             B_IR_Heli_Transport_03_F,
             B_IR_Heli_Transport_03_unarmed_F,
             B_IR_Heli_Transport_03_camo_F,
-            B_IR_Heli_Transport_03__camo_unarmed_F
+            B_IR_Heli_Transport_03_camo_unarmed_F
         };
 		weapons[] = {/* Automated */};
 	};

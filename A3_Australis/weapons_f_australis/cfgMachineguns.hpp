@@ -1,6 +1,6 @@
-/*Arma 3 Australis Weapons_F_Australis Machineguns*/
+/* Arma 3 Australis Weapons_F_Australis Machineguns */
 
-/*Base Classes*/
+/* Base Classes */
 class Rifle_Base_F;
 class Rifle_Long_Base_F: Rifle_Base_F 
 {
@@ -8,9 +8,10 @@ class Rifle_Long_Base_F: Rifle_Base_F
 	class GunParticles;
 };
 
-/*Arma 3 Australis*/
+/* Arma 3 Australis */
 /*MG121/GPMG-5 7.62 mm*/
-class Australis_MMG_MG121_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
+/*
+class Australis_MMG_MG121_base_F: Rifle_Long_Base_F
 {
 		author="Lowaltitude";
 		_generalMacro="Australis_MMG_MG121_F";
@@ -363,15 +364,20 @@ class Australis_MMG_MG121_base_F: Rifle_Long_Base_F //Change to MMG_MG121_base_F
 		aiDispersionCoefY=25;
 		aiDispersionCoefX=20;
 };
+*/
+/*
 class Australis_MMG_MG121_F: Australis_MMG_MG121_base_F //Change to MMG_MG121_F
 {
 	author = "Lowaltitude";
 	scope= 2;
 	baseWeapon = Australis_MMG_MG121_F; 
-	displayName = "MG-121 7.62 mm"; /*Avery has Suggested MG121*/
+	displayName = "MG-121 7.62 mm"; //Avery Suggested MG-121
 };
 
-/*Aravah 5.56 mm*/
+*/ 
+
+/* Aravah 5.56 mm */
+/*
 class LMG_Aravah_F: Rifle_Long_Base_F
 	{
 		author="Lowaltitude";
@@ -731,4 +737,5 @@ class LMG_Aravah_F: Rifle_Long_Base_F
 		aiDispersionCoefY=23;
 		aiDispersionCoefX=19;
 	};
+*/
 /*Maximi 7.62 mm*/
