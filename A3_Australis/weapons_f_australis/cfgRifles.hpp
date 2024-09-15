@@ -48,12 +48,12 @@ class arifle_MX_UK_F: arifle_MX_F
 		"30Rnd_65x39_caseless_black_mag"
 	};
 };
-class arifle_MX_Green_F: arifle_MX_F
+/*class arifle_MX_Green_F: arifle_MX_F
 {
 	baseWeapon="arifle_MX_UK_F";
 	author="$STR_A3_Bohemia_Interactive";
 	_generalMacro="arifle_MX_Black_F";
-	displayName="MX 6.5mm (Dunkelgrun)";
+	displayName="MX 6.5mm (Dark Green)";
 	hiddenSelections[]=
 	{
 		"camo1",
@@ -75,7 +75,7 @@ class arifle_MXC_Green_F: arifle_MXC_F
 	baseWeapon="arifle_MXC_Green_F";
 	author="$STR_A3_Bohemia_Interactive";
 	_generalMacro="arifle_MX_Black_F";
-	displayName="MXC 6.5mm (Dunkelgrun)";
+	displayName="MXC 6.5mm (Dark Green)";
     hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\MX\Data\arifle_MXC_olive_CO.paa"};
     hiddenSelectionsMaterials[]=
@@ -88,7 +88,7 @@ class arifle_MX_GL_Green_F: arifle_MX_GL_F
 	baseWeapon="arifle_MX_GL_Green_F";
 	author="$STR_A3_Bohemia_Interactive";
 	_generalMacro="arifle_MX_Black_F";
-	displayName="MX 3GL 6.5mm (Dunkelgrun)";
+	displayName="MX 3GL 6.5mm (Dark Green)";
     hiddenSelections[] = {"camo1","camo2"};
 	hiddenSelectionsTextures[] = 
 	{
@@ -106,7 +106,7 @@ class arifle_MX_SW_Green_F: arifle_MX_SW_F
 	baseWeapon="arifle_MX_SW_Green_F";
 	author="$STR_A3_Bohemia_Interactive";
 	_generalMacro="arifle_MX_Black_F";
-	displayName="MXSW 6.5mm (Dunkelgrun)";
+	displayName="MXSW 6.5mm (Dark Green)";
     hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\MX\Data\arifle_MXSW_olive_CO.paa"};
     hiddenSelectionsMaterials[]=
@@ -120,11 +120,11 @@ class arifle_MXM_green_F: arifle_MXM_F
 	baseWeapon="arifle_MXM_green_F";
 	author="$STR_A3_Bohemia_Interactive";
 	_generalMacro="arifle_MX_Black_F";
-	displayName="MXM 6.5mm (Dunkelgrun)";
+	displayName="MXM 6.5mm (Dark Green)";
     hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\A3_Australis\Weapons_F_Australis\Rifles\MX\Data\arifle_MXM_olive_CO.paa"};
     hiddenSelectionsMaterials[]=
 	{
 		"\A3_Aegis\weapons_f_aegis\Rifles\MX\Data\arifle_MXM.rvmat"
 	};
-};
+};*/

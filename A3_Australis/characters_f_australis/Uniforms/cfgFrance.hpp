@@ -52,7 +52,11 @@ class Australis_U_B_CombatUniform_vest_tdm_F: Uniform_Base
 		mass = 40;
 	};
 };
+
 /*French (Arid)*/
+
+
+//Combat Fatigues (Geotiger-Arid)
 class Australis_U_B_CombatUniform_ffl_ard_F: Uniform_Base
 {
 	author = "Foxtonnes,Jamie,Lowaltitude";
@@ -70,6 +74,7 @@ class Australis_U_B_CombatUniform_ffl_ard_F: Uniform_Base
 		mass = 40;
 	};
 };
+//Combat Fatigues (Geotiger-Arid, T-shirt)
 class Australis_U_B_CombatUniform_tshirt_ffl_ard_F: Uniform_Base
 {
 	author = "Foxtonnes,Jamie,Lowaltitude";
@@ -87,6 +92,7 @@ class Australis_U_B_CombatUniform_tshirt_ffl_ard_F: Uniform_Base
 		mass = 40;
 	};
 };
+//Combat Fatigues (Geotiger-Arid, Rolled-Up)
 class Australis_U_B_CombatUniform_vest_ffl_ard_F: Uniform_Base
 {
 	author = "Foxtonnes,Jamie,Lowaltitude";

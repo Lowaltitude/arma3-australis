@@ -50,6 +50,8 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_beret02_cdo_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_beret02_cdo.rvmat"};
 	};
+	
+	/* Arma 3 Aegis */
 	//BAF Para Beret move to Aegis TBD
 	class H_Beret_red_02: H_Beret_red 
 	{
@@ -60,20 +62,22 @@ class CfgWeapons
 		hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Headgear\Data\headgear_beret01_red.rvmat"};
 	};
 	
-	/*Booniehats*/
-	//ADF
+	
+	/*Arma 3 Atlas - ADF*/ //MOVE TO ATLAS
+	// Booniehat [ADF] (Arid)
 	class H_Booniehat_aucamo_ard_F: H_Booniehat_aucamo_F
 	{
-		author = "Lowaltitude and abb0t";
-		displayName = "Booniehat [ADF] (AMC)";
+		author = "Lowaltitude";
+		displayName = "Booniehat [ADF] (Arid)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_ard_CO.paa"};
 	};
+	// Booniehat [ADF] (Arid, Headset)
 	class H_Booniehat_aucamo_ard_hs_F: H_Booniehat_aucamo_ard_F
 	{
-		author = "Lowaltitude and abb0t";
+		author = "Lowaltitude";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
-		displayName = "Booniehat [ADF] (AMC, Headset)";
+		displayName = "Booniehat [ADF] (Arid, Headset)";
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -81,7 +85,7 @@ class CfgWeapons
 		};
 	};
 	
-	//ADF Tropic
+	// Booniehat [ADF] (Tropic)
 	class H_Booniehat_aucamo_trp_F: H_Booniehat_khk
 	{
 		author = "Lowaltitude and abb0t";
@@ -89,6 +93,7 @@ class CfgWeapons
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_trp_CO.paa"};
 	};
+	// Booniehat [ADF] (Tropic, Headset)
 	class H_Booniehat_aucamo_trp_hs_F: H_Booniehat_aucamo_trp_F
 	{
 		author = "Lowaltitude and abb0t";
@@ -100,20 +105,24 @@ class CfgWeapons
 			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		};
 	};
-
-	//ADF Naval
-	class H_Booniehat_aucamo_navy_F: H_Booniehat_khk
+	
+	
+	/*Arma 3 Australis - ADF*/
+	
+	// Booniehat [ADF] (AMC)
+	class Australis_H_Booniehat_aucamo_F: H_Booniehat_aucamo_F
 	{
-		author = "Lowaltitude and Foxtonnes";
-		displayName = "Booniehat [ADF] (Naval)";
+		author = "Lowaltitude";
+		displayName = "Booniehat [ADF] (AMC)";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_navy_CO.paa"};
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_CO.paa"};
 	};
-	class H_Booniehat_aucamo_navy_hs_F: H_Booniehat_aucamo_navy_F
+	// Booniehat [ADF] (AMC, Headset)
+	class Australis_H_Booniehat_aucamo_hs_F: Australis_H_Booniehat_aucamo_F
 	{
-		author = "Lowaltitude and Foxtonnes";
+		author = "Lowaltitude";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
-		displayName = "Booniehat [ADF] (Naval, Headset)";
+		displayName = "Booniehat [ADF] (AMC, Headset)";
 		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
 		class ItemInfo: ItemInfo
 		{
@@ -121,15 +130,160 @@ class CfgWeapons
 		};
 	};
 	
-	//NZDF
-	class H_Booniehat_nzcamo_F: H_Booniehat_khk
+	//Cap [ADF] (AMC)
+	class H_Cap_aucamo: H_Cap_red
+	{
+		author = "Lowaltitude";
+	 	displayName = "Cap [ADF] (AMC)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_aucamo_co.paa"};
+	};
+	//Cap [ADF] (AMC, Flag)
+	class H_Cap_aucamo_flag: H_Cap_red
+	{
+		author = "Lowaltitude";
+	 	displayName = "Cap [ADF] (AMC, Flag)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_aucamo_flag_co.paa"};
+	};
+	
+	// Modular Helmet [ADF] (AMC)
+	class Australis_H_B_Helmet_canvas_aucamo: H_HelmetIA
+	{
+	  	author = "Lowaltitude";
+		displayName = "Modular Helmet [ADF] (AMC)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_CO.paa"};
+	};
+	
+	// Advanced Modular Helmet [ADF] (AMC)
+	class Australis_H_HelmetHBK_aucamo_srd_F: H_HelmetHBK_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC, Headset)
+	class Australis_H_HelmetHBK_aucamo_srd_headset_F: H_HelmetHBK_headset_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC, Headset)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC, Ear Protectors)
+	class Australis_H_HelmetHBK_aucamo_srd_ear_F: H_HelmetHBK_ear_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC, Ear Protectors)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC, Chops)
+	class Australis_H_HelmetHBK_aucamo_srd_chops_F: H_HelmetHBK_chops_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC, Chops)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
+	};
+	
+	/*Arma 3 Australis - ADF Naval*/
+	
+	// Booniehat [ADF] (AMC-M)
+	class Australis_H_Booniehat_aucamo_nvy_F: H_Booniehat_khk
+	{
+		author = "Lowaltitude and Foxtonnes";
+		displayName = "Booniehat [ADF] (AMC-M)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_aucamo_nvy_CO.paa"};
+	};
+	// Booniehat [ADF] (AMC-M, Headset)
+	class Australis_H_Booniehat_aucamo_nvy_hs_F: Australis_H_Booniehat_aucamo_nvy_F
+	{
+		author = "Lowaltitude and Foxtonnes";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
+		displayName = "Booniehat [ADF] (AMC-M, Headset)";
+		model = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		class ItemInfo: ItemInfo
+		{
+			uniformModel = "\A3\Characters_F_EPB\Common\booniehat_hs.p3d";
+		};
+	};
+	
+	//Cap [ADF] (AMC-M)
+	class H_Cap_aucamo_nvy: H_Cap_red
+	{
+		author = "Lowaltitude";
+	 	displayName = "Cap [ADF] (AMC)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
+	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_aucamo_nvy_co.paa"};
+	};
+	
+	// Modular Helmet [ADF] (AMC-M)
+	class Australis_H_B_Helmet_canvas_aucamo_nvy_F: H_HelmetIA
+	{
+	  	author = "OokamiJamie";
+		displayName = "Modular Helmet [ADF] (AMC-M)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_nvy_CO.paa"};
+	};
+	
+	// Advanced Modular Helmet [ADF] (AMC-M)
+	class Australis_H_HelmetHBK_aucamo_nvy_F: H_HelmetHBK_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC-M)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_nvy_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC-M, Headset)
+	class Australis_H_HelmetHBK_aucamo_nvy_headset_F: H_HelmetHBK_headset_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC-M, Headset)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_nvy_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC-M, Ear Protectors)
+	class Australis_H_HelmetHBK_aucamo_nvy_ear_F: H_HelmetHBK_ear_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC-M, Ear Protectors)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_nvy_CO.paa"};
+	};
+	// Advanced Modular Helmet [ADF] (AMC-M, Chops)
+	class Australis_H_HelmetHBK_aucamo_nvy_chops_F: H_HelmetHBK_chops_base_F
+	{
+		author = "Lowaltitude, Foxtonnes";
+		scope = public;
+		displayName = "Advanced Modular Helmet [ADF] (AMC-M, Chops)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_nvy_CO.paa"};
+	};
+	
+	
+	/*Arma 3 Australis - NZDF*/
+	
+	// Booniehat [NZDF]
+	class Australis_H_Booniehat_nzcamo_F: H_Booniehat_khk
 	{
 		author = "Lowaltitude";
 		displayName = "Booniehat [NZDF]";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\booniehat_nzcamo_CO.paa"};
 	};
-	class H_Booniehat_nzcamo_hs_F: H_Booniehat_nzcamo_F
+	// Booniehat [NZDF] (Headset)
+	class Australis_H_Booniehat_nzcamo_hs_F: Australis_H_Booniehat_nzcamo_F
 	{
 		author = "Lowaltitude";
 		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_hs_F_CA.paa";
@@ -141,7 +295,38 @@ class CfgWeapons
 		};
 	};
 	
-	//Pacific Union Peacekeepers
+	// Modular Helmet (NZDF)
+	class H_B_Helmet_canvas_nzcamo: H_HelmetIA
+	{
+	  	author = "OokamiJamie";
+		displayName = "Modular Helmet (NZDF)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_nzcamo_CO.paa"};
+	};
+	
+	// Combat Helmet [NZDF] (Cover)
+	class H_HelmetB_nzcamo_cover: H_HelmetB
+	{
+		author = "Charms,Lowaltitude";
+		displayName = "Combat Helmet [NZDF] (Cover)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
+	};
+	// Enhanced Combat Helmet [NZDF] (Cover)
+	class H_HelmetSpecB_nzcamo_cover: H_HelmetSpecB
+	{
+		author = "Charms,Lowaltitude";
+		displayName = "Enhanced Combat Helmet [NZDF] (Cover)";
+		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
+		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
+	};
+	
+	
+	/*Arma 3 Australis - Pacific Union (PNGDF)*/
+	
+	
 	class H_Booniehat_pngcamo_F: H_Booniehat_khk
 	{
 		author = "Lowaltitude";
@@ -354,20 +539,8 @@ class CfgWeapons
 	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_autism.paa"};
 	};
 	*/
-	class H_Cap_aucamo: H_Cap_red
-	{
-		author = "Lowaltitude";
-	 	displayName = "Cap [ADF] (AMC)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_aucamo_co.paa"};
-	};
-	class H_Cap_aucamo_flag: H_Cap_red
-	{
-		author = "Lowaltitude";
-	 	displayName = "Cap [ADF] (AMC, Flag)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_Cap_brn_SPECOPS_CA.paa";
-	  	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\capb_aucamo_flag_co.paa"};
-	};
+	
+
 	
 	/*Mil Caps*/
 	/*
@@ -383,8 +556,6 @@ class CfgWeapons
 	/*Helmets*/
 	//Combat Helmet
 	
-	//NZDF
-	
 	/*
 	class H_HelmetB_nzcamo_blu_cover: H_HelmetB
 	{
@@ -395,32 +566,12 @@ class CfgWeapons
 		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
 	};
 	*/
-	class H_HelmetB_nzcamo_cover: H_HelmetB
-	{
-		author = "Charms,Lowaltitude";
-		displayName = "Combat Helmet [NZDF] (Cover)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
-	};
-	class H_HelmetSpecB_nzcamo_cover: H_HelmetSpecB
-	{
-		author = "Charms,Lowaltitude";
-		displayName = "Enhanced Combat Helmet [NZDF] (Cover)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetB_black_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\equip1_nzcamo_CO.paa"};
-		hiddenSelectionsMaterials[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\MICH.rvmat"};
-	};
+
+	
+
 	
 	//Modular Helmet
-	//ADF
-	class H_B_Helmet_canvas_aucamo: H_HelmetIA
-	{
-	  	author = "OokamiJamie";
-		displayName = "Modular Helmet [ADF] (AMC)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_CO.paa"};
-	};
+
 
 	//ADF Arid
 	class H_B_Helmet_canvas_aucamo_ard: H_HelmetIA
@@ -440,14 +591,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_trp_CO.paa"};
 	};
 
-	//ADF Naval
-	class H_B_Helmet_canvas_aucamo_navy: H_HelmetIA
-	{
-	  	author = "OokamiJamie";
-		displayName = "Modular Helmet (ADF Naval)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_navy_CO.paa"};
-	};
+
 
 	//ADF Semi-Arid
 	class H_B_Helmet_canvas_aucamo_srd: H_HelmetIA
@@ -458,88 +602,5 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_aucamo_srd_CO.paa"};
 	};
 	
-	//NZDF
-	class H_B_Helmet_canvas_nzcamo: H_HelmetIA
-	{
-	  	author = "OokamiJamie";
-		displayName = "Modular Helmet (NZDF)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_nzcamo_CO.paa"};
-	};
 
-	//NZDF Arid
-	class H_B_Helmet_canvas_nzcamo_ard: H_HelmetIA
-	{
-	  	author = "OokamiJamie";
-		displayName = "Modular Helmet (NZDF Arid)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\headgear_helmet_canvas_nzcamo_ard_CO.paa"};
-	};
-	/*Advanced Modular Helmet*/
-	//ADF Naval
-	class H_HelmetHBK_aucamo_navy_F: H_HelmetHBK_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Naval)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_navy_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_navy_headset_F: H_HelmetHBK_headset_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Naval, Headset)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_navy_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_navy_ear_F: H_HelmetHBK_ear_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Naval, Ear Protectors)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_navy_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_navy_chops_F: H_HelmetHBK_chops_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Naval, Chops)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_navy_CO.paa"};
-	};
-	//ADF Semi-Arid
-	class H_HelmetHBK_aucamo_srd_F: H_HelmetHBK_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_srd_headset_F: H_HelmetHBK_headset_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Headset)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_srd_ear_F: H_HelmetHBK_ear_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Ear Protectors)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_ear_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
-	};
-	class H_HelmetHBK_aucamo_srd_chops_F: H_HelmetHBK_chops_base_F
-	{
-		author = "Lowaltitude, Foxtonnes";
-		scope = public;
-		displayName = "Advanced Modular Helmet [ADF] (Semi-Arid, Chops)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_chops_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Headgear\Data\H_HelmetHBK_01_aucamo_srd_CO.paa"};
-	};
 };

@@ -1,5 +1,5 @@
 /* ADF */
-class Australis_B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
+class Australis_B_K_Heli_Transport_02_F: Heli_Transport_02_base_F
 {
 	author = "Lowaltitude";
     class SimpleObject
@@ -164,16 +164,16 @@ class Australis_B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Heli_Transport_02_F.jpg";
 	scope = public;
-	crew = Atlas_B_A_helipilot_F;
-	typicalCargo[] = {Atlas_B_A_helipilot_F};
+	crew = Australis_B_K_helipilot_F;
+	typicalCargo[] = {Australis_B_K_helipilot_F};
 	side = TWest;
-	faction = Atlas_BLU_A_F;
-	textureList[] = {ADF,1};
+	faction = Australis_BLU_NZ_F;
+	textureList[] = {NZDF,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_1_adf_CO.paa",
-		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_2_adf_CO.paa",
-		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_3_adf_CO.paa",
+		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_1_nzdf_CO.paa",
+		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_2_nzdf_CO.paa",
+		"\A3_Australis\Air_F_Australis\Heli_Transport_02\Data\Heli_Transport_02_3_nzdf_CO.paa",
 		"\A3\Air_F_Beta\Heli_Transport_02\Data\Heli_Transport_02_int_02_CO.paa"
 	};
 	availableForSupportTypes[] =

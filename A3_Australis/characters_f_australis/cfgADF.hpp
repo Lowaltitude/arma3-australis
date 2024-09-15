@@ -44,13 +44,13 @@ class Australis_B_A_Soldier_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -119,13 +119,13 @@ class Australis_B_A_Soldier_A_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -169,14 +169,14 @@ class Australis_B_A_Soldier_AAR_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -234,13 +234,13 @@ class Australis_B_A_Soldier_AR_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		LMG_03_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		LMG_03_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -340,13 +340,13 @@ class Australis_B_A_Soldier_GL_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_green_ACO_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_green_ACO_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -396,14 +396,14 @@ class Australis_B_A_soldier_M_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		Atlas_arifle_SR25_blk_MRCO_LP_BI_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -460,14 +460,14 @@ class Australis_B_A_Officer_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -523,14 +523,14 @@ class Australis_B_A_Soldier_SL_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_ARCO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_ARCO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -586,14 +586,14 @@ class Australis_B_A_Soldier_TL_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_GL_green_ARCO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_GL_green_ARCO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -667,13 +667,13 @@ class Australis_B_A_RadioOperator_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -730,14 +730,14 @@ class Australis_B_A_Soldier_AA_F: Australis_B_A_Soldier_base_F
 	{
 		arifle_AUG_C_green_Holo_Pointer_F,
 		launch_B_Titan_coyote_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Holo_Pointer_F,
 		launch_B_Titan_coyote_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -801,14 +801,14 @@ class Australis_B_A_Soldier_AT_F: Australis_B_A_Soldier_base_F
 	{
 		arifle_AUG_C_green_Holo_Pointer_F,
 		launch_O_Titan_short_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Holo_Pointer_F,
 		launch_O_Titan_short_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -872,14 +872,14 @@ class Australis_B_A_Soldier_LAT_F: Australis_B_A_Soldier_base_F
 	{
 		arifle_AUG_green_Holo_Pointer_F,
 		launch_MRAWS_coyote_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
 		launch_MRAWS_coyote_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -930,14 +930,14 @@ class Australis_B_A_Soldier_AAA_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -986,14 +986,14 @@ class Australis_B_A_Soldier_AAT_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_ACO_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons,
 		Rangefinder
 	};
@@ -1042,13 +1042,13 @@ class Australis_B_A_Support_GMG_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1096,13 +1096,13 @@ class Australis_B_A_Support_MG_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1150,13 +1150,13 @@ class Australis_B_A_Support_Mort_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1204,13 +1204,13 @@ class Australis_B_A_Support_AMG_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1258,13 +1258,13 @@ class Australis_B_A_Support_AMort_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1312,13 +1312,13 @@ class Australis_B_A_Engineer_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -1371,13 +1371,13 @@ class Australis_B_A_Soldier_Exp_F: Australis_B_A_Soldier_base_F
     weapons[] =
     {
         arifle_AUG_C_green_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_green_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1437,13 +1437,13 @@ class Australis_B_A_Soldier_Repair_F: Australis_B_A_Soldier_base_F
     weapons[] =
     {
         arifle_AUG_C_green_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_green_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1496,13 +1496,13 @@ class Australis_B_A_Soldier_CBRN_F: Australis_B_A_Soldier_base_F
 	weapons[] =
     {
         arifle_AUG_C_green_Holo_FL_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_green_Holo_FL_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1569,13 +1569,13 @@ class Australis_B_A_Medic_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_green_Holo_Pointer_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1625,13 +1625,13 @@ class Australis_B_A_Crew_F: Australis_B_A_Soldier_base_F
 	weapons[] =
 	{
 		arifle_AUG_C_green_Holo_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
 		arifle_AUG_C_green_Holo_F,
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -1809,13 +1809,13 @@ class Australis_B_A_Soldier_UAV_F: Australis_B_A_Soldier_base_F
 	weapons[] =
     {
         arifle_AUG_C_green_ACO_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_green_ACO_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     magazines[] =
@@ -1905,13 +1905,13 @@ class Australis_B_A_Soldier_PG_F: B_Soldier_PG_F
 	weapons[] =
     {
         arifle_AUG_C_green_ACO_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
         arifle_AUG_C_green_ACO_Pointer_F,
-        Aegis_hgun_P320_sand_F,
+        hgun_ABPM3_black_F,
         DefaultManWeapons
     };
 	linkedItems[] =
@@ -1974,12 +1974,12 @@ class Australis_B_A_Fighter_Pilot_F: Australis_B_A_Soldier_base_F
     };
 	weapons[] =
 	{
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		Aegis_hgun_P320_sand_F,
+		hgun_ABPM3_black_F,
         DefaultManWeapons
 	};
 	magazines[] =

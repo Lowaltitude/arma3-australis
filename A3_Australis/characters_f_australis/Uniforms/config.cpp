@@ -11,10 +11,11 @@ class CfgWeapons //Move to cfgVehicles.hpp later
 	class U_I_CombatUniform_tshirt;
 	
 	/*Configs by Faction*/
+	#include "cfgADF_Atlas.hpp"	// Arma 3 Atlas Patch
 	#include "cfgADF.hpp"
 	#include "cfgNZDF.hpp"
-	#include "cfgPU.hpp"
-	#include "cfgFrance.hpp"
+	#include "cfgPU.hpp"		// Pacific Union
+	//#include "cfgFrance.hpp"	// French (Tropical and Arid Geotiger)
 	#include "cfgOPFOR.hpp"
-	#include "cfgTEST.hpp"
+	#include "cfgTEST.hpp"		// Test Uniforms
 };

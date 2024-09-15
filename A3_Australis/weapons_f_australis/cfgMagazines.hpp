@@ -5,6 +5,7 @@ class CfgMagazines
 	class CA_Magazine;
 	class HandGrenade;
 	class SatchelCharge_Remote_Mag;
+	class SmokeShell;
 	
 	/*Arma 3 Australis*/
 	/*7.62 mm Boxes*/
@@ -111,6 +112,17 @@ class CfgMagazines
 		displayNameShort = "Satchel Charge";
 	};
 	
+	/*M106 Bursting Smoke Grenade Magazine*/
+	class SmokeShell_Burst_Magazine: SmokeShell
+	{
+		author = "Lowaltitude";
+		scope = 2;
+		mass = 10;
+		displayName = "Smoke Grenade (Burst, White)";
+		ammo = "SmokeShell_Burst_Ammo";
+		displayNameShort = "Smoke Grenade";
+	};
+	
 	/*Throwable Demo Charge Magazine*/
 	class DemoCharge_RemoteThrow_Mag: SatchelCharge_Remote_Mag
 	{
@@ -140,6 +152,18 @@ class CfgMagazines
 		model = "\A3_Aegis\Weapons_F_Aegis\Ammo\Handgrenade_east.p3d";
 		ammo = "Grenade_Sticky_Ammo";
 		displayNameShort = "Semtex Grenade";
+	};
+	
+	/* Pylon Magazines */
+	//BIM 9X for Apache
+	class PylonMissile_1Rnd_AAA_missiles;
+	class PylonRack_Missile_BIM9X_helo_x1: PylonMissile_1Rnd_AAA_missiles
+	{
+		ammo = ammo_Missile_BIM9X;
+		mass = 8;
+		displayName="BIM9X Helicopter";
+		pylonWeapon="weapon_BIM9xLauncher";
+		ejectSpeed[]={1,0,0};
 	};
 	
 	

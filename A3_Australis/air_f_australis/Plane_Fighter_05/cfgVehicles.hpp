@@ -121,5 +121,6 @@ class CfgVehicles
 	class B_Plane_Fighter_05_Stealth_F: Plane_Fighter_05_Base_F{};
 	class Ejection_Seat_Plane_Fighter_05_base_F;
 	// Arma 3 Australis
-	#include "cfgADF.hpp"               // ADF
+	#include "cfgADF_Atlas.hpp" 	//ADF - Atlas Patch
+	#include "cfgADF.hpp" 			// ADF
 };

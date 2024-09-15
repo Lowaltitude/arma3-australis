@@ -14,7 +14,7 @@ class cfgAmmo
 	
 	/*Arma 3 Aegis*/
 	class GrenadeHand;
-	
+	class SmokeShell;
 	
 	/*Arma 3 Australis*/
 	//Throwable Satchel Charge
@@ -35,25 +35,93 @@ class cfgAmmo
 		CraterEffects="MineNondirectionalCrater";
 	};
 	
-	//Throwable Demo Charge
-	class DemoCharge_RemoteThrow_Ammo: GrenadeHand
+	//M106 Bursting Smoke Grenade
+	/*class SmokeShell_Burst_Ammo: SmokeShell 
 	{
-		hit = 1000;
-		indirectHit = 1000;
-		indirectHitRange = 3;
-		dangerRadiusHit = 65;
-		suppressionRadiusHit = 30;
-		typicalspeed = 20;
+		effectsSmoke = "lxWS_Smoke_BarrageEffect";
+	};*/
+	
+	class SmokeShell_Burst_Ammo: SmokeShell
+	{
+		model="\A3\Weapons_f\ammo\smokegrenade_white_throw";
+		scope = 2;
+		scopeCurator = 2;
+		hit=0;
+		indirectHit=0;
+		indirectHitRange=0.2;
+		dangerRadiusHit=-1;
+		suppressionRadiusHit=-1;
+		typicalspeed=22;
+		cost=100;
+		simulation="shotSmokeX";
+		explosive=0;
+		deflecting=7;
+		explosionTime=2;
+		timeToLive=20;
+		fuseDistance=0;
+		aiAmmoUsageFlags="4 + 2";
+		smokeColor[]={1,1,1,1};
+		effectsSmoke = "lxWS_Smoke_BarrageEffect";
+		whistleDist=0;
+		class CamShakeExplode
+		{
+			power=3.2;
+			duration=0.80000001;
+			frequency=20;
+			distance=56;
+		};
+		soundHit[]=
+		{
+			"",
+			0,
+			1
+		};
+		SmokeShellSoundHit1[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_01",
+			3.1622777,
+			1,
+			1300
+		};
+		SmokeShellSoundHit2[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_02",
+			3.1622777,
+			1,
+			1300
+		};
+		SmokeShellSoundHit3[]=
+		{
+			"A3\Sounds_F\arsenal\explosives\grenades\Explosion_mini_grenade_03",
+			3.1622777,
+			1,
+			1300
+		};
+		SmokeShellSoundLoop1[]=
+		{};
+		SmokeShellSoundLoop2[]=
+		{};
+		grenadeFireSound[]=
+		{
+			"SmokeShellSoundHit1",
+			0.25,
+			"SmokeShellSoundHit2",
+			0.25,
+			"SmokeShellSoundHit3",
+			0.5
+		};
+		grenadeBurningSound[]=
+		{};
+	};
+	//Throwable Demo Charge
+	class DemoCharge_RemoteThrow_Ammo: ShotDeployBase
+	{
+		scope = 2;
+		submunitionAmmo = DemoCharge_Remote_Ammo_Scripted;
 		model = "\A3\Weapons_F\explosives\c4_charge_small";
-		deflecting = 7;
-		fuseDistance = 0;
-		explosionTime = 10;
-		timeToLive = 18;
-		ExplosionEffects = "MineNondirectionalExplosionSmall";
-		CraterEffects = "MineNondirectionalCraterSmall";
-		whistleDist = 32;
-		mineInconspicuousness = 5;
-		mineTrigger = "RemoteTrigger";
+		mineFloating = 1000;
+		deleteParentWhenTriggered = false;
+		timeToLive = 10;
 	};
 	
 	//Sticky Grenade

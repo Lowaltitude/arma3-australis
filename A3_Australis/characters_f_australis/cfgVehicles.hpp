@@ -31,8 +31,11 @@ class CfgVehicles
     {
         class EventHandlers;
     };
-    //#include "cfgADF_Atlas.hpp"       // ADF - Atlas Patch
-	#include "cfgADF.hpp"
+    //#include "cfgADF_Atlas.hpp"	// ADF - Atlas Patch
+	#include "cfgADF.hpp"			//ADF (Australis)
+	#include "cfgNZDF.hpp"			//New Zealand
+	#include "cfgGendarmerie.hpp"	//Gendarmerie Special Task Force
+	
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

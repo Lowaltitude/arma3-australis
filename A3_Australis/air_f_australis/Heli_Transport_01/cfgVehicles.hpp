@@ -53,5 +53,6 @@ class CfgVehicles
 	};
 	
 	/* Factions */
+	#include "cfgADF_Atlas.hpp"	//ADF - Atlas Patch
 	#include "cfgADF.hpp"
 };

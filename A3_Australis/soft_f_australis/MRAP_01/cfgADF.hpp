@@ -97,10 +97,10 @@ class Australis_B_A_MRAP_01_F: MRAP_01_base_F
     scope = public;
     scopeCurator = public;
     side = TWest;
-    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_F0;
-    faction = Atlas_BLU_A_F;
-    crew = Atlas_B_A_Soldier_F;
-    typicalCargo[] = {Atlas_B_A_Soldier_lite_F};
+    displayName = "Heeler";
+    faction = Australis_BLU_AU_F;
+    crew = Australis_B_A_Soldier_F;
+    typicalCargo[] = {Australis_B_A_Soldier_lite_F};
 	unitInfoType = RscUnitInfoNoWeapon;
 	threat[] = {0.1,0.1,0.1};
     textureList[] = {Brown,1};
@@ -113,12 +113,12 @@ class Australis_B_A_MRAP_01_F: MRAP_01_base_F
 	class Turrets{};
     class TransportWeapons
     {
-        weap_xx(arifle_TRG21_black_F,2);
+        weap_xx(arifle_AUG_green_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_556x45_Stanag,16);
-        mag_xx(150Rnd_762x51_Box_Yellow,4);
+        mag_xx(30Rnd_556x45_AUG_Mag_F,16);
+        mag_xx(200Rnd_556x45_Box_Red_F,4);
         mag_xx(HandGrenade,10);
         mag_xx(1Rnd_HE_Grenade_shell,10);
         mag_xx(1Rnd_Smoke_Grenade_shell,4);
@@ -133,7 +133,7 @@ class Australis_B_A_MRAP_01_F: MRAP_01_base_F
 		mag_xx(MRAWS_HEAT_F,2);
     };
 };
-class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
+class Australis_B_A_MRAP_01_gmg_F: MRAP_01_gmg_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -231,11 +231,11 @@ class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
     editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_MRAP_01_gmg_F.jpg";
     scope = public;
     scopeCurator = public;
-    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_gmg_F0;
+    displayName = "Heeler (GMG)";
     side = TWest;
-    faction = Atlas_BLU_A_F;
-    crew = Atlas_B_A_Soldier_F;
-    typicalCargo[] = {Atlas_B_A_Soldier_lite_F};
+    faction = Australis_BLU_AU_F;
+    crew = Australis_B_A_Soldier_F;
+    typicalCargo[] = {Australis_B_A_Soldier_lite_F};
     textureList[] = {ADF,1};
     hiddenSelectionsTextures[] =
     {
@@ -265,7 +265,7 @@ class Atlas_I_I_MRAP_01_gmg_F: MRAP_01_gmg_base_F
 		mag_xx(MRAWS_HEAT_F,2);
     };
 };
-class Atlas_I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
+class Australis_B_A_MRAP_01_hmg_F: MRAP_01_hmg_base_F
 {
     author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -363,11 +363,11 @@ class Atlas_I_I_MRAP_01_hmg_F: MRAP_01_hmg_base_F
     editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_I_I_MRAP_01_hmg_F.jpg";
     scope = public;
     scopeCurator = public;
-    displayName = $STR_A3_A_CfgVehicles_I_I_MRAP_01_hmg_F0;
+    displayName = "Heeler (HMG)";
     side = TWest;
-    faction = Atlas_BLU_A_F;
-    crew = Atlas_B_A_Soldier_F;
-    typicalCargo[] = {Atlas_B_A_Soldier_lite_F};
+    faction = Australis_BLU_AU_F;
+    crew = Australis_B_A_Soldier_F;
+    typicalCargo[] = {Australis_B_A_Soldier_lite_F};
     textureList[] = {ADF,1};
     hiddenSelectionsTextures[] =
     {

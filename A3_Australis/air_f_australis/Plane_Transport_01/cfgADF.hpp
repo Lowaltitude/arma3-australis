@@ -1,5 +1,5 @@
 /* ADF */
-class Atlas_B_A_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
+class Australis_B_A_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 {
 	author = $STR_A3_A_Lowaltitude;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\data\CfgVehicles\Atlas_B_A_Plane_Transport_01_infantry_F.jpg";
@@ -8,9 +8,9 @@ class Atlas_B_A_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_infantry_base_F0;
 	radarTargetSize = 1.8;
 	side = TWest;
-	faction = Atlas_BLU_A_F;
-	crew = Atlas_B_A_Pilot_F;
-	typicalCargo[] = {Atlas_B_A_Pilot_F};
+	faction = Australis_BLU_AU_F;
+	crew = Australis_B_A_Pilot_F;
+	typicalCargo[] = {Australis_B_A_Pilot_F};
 	textureList[] = {ADF,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -19,7 +19,7 @@ class Atlas_B_A_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
 	};
 };
-class Atlas_B_A_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
+class Australis_B_A_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 {
 	author = $STR_A3_A_Lowaltitude;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\data\CfgVehicles\Atlas_B_A_Plane_Transport_01_vehicle_F.jpg";
@@ -28,9 +28,9 @@ class Atlas_B_A_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_vehicle_base_F0;
 	radarTargetSize = 2;
 	side = TWest;
-	faction = Atlas_BLU_A_F;
-	crew = Atlas_B_A_Pilot_F;
-	typicalCargo[] = {Atlas_B_A_Pilot_F};
+	faction = Australis_BLU_AU_F;
+	crew = Australis_B_A_Pilot_F;
+	typicalCargo[] = {Australis_B_A_Pilot_F};
 	textureList[] = {ADF,1};
 	hiddenSelectionsTextures[] =
 	{

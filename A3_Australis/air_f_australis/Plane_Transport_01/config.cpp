@@ -55,5 +55,6 @@ class CfgVehicles
 	class Plane_Transport_01_vehicle_base_F: Plane_Transport_01_base_F{};
 	
     /* Factions */
-    #include "cfgADF.hpp"    // ADF
+	#include "cfgADF_Atlas.hpp" // ADF - Atlas Patch
+    #include "cfgADF.hpp" 		// ADF (Australis)
 };

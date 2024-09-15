@@ -10,7 +10,8 @@
         {
 			"HandGrenade_StickyMuzzle",
 			"HandGrenade_SatchelMuzzle",
-			"DemoCharge_ThrowMuzzle"
+			"DemoCharge_ThrowMuzzle",
+			"SmokeShell_Burst"
         };
         class ThrowMuzzle;
 		class HandGrenade_SatchelMuzzle: ThrowMuzzle
@@ -25,5 +26,9 @@
 		class HandGrenade_StickyMuzzle: ThrowMuzzle
 		{
 			magazines[] = {HandGrenade_Sticky};
+		};
+		class SmokeShell_Burst: ThrowMuzzle
+		{
+			magazines[] = {SmokeShell_Burst_Magazine};
 		};
     };

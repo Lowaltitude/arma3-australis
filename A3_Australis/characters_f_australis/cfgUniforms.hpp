@@ -5,6 +5,7 @@
 
 //ADF
 /*Arma 3 Atlas (Flag Patch Fix)*/
+
 class Atlas_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
 {
   	scope = protected;
@@ -20,6 +21,7 @@ class Atlas_B_A_CombatFatigues_01_RolledUp_aucamo_F: I_soldier_lite_F
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_CO.paa"};
 };
 
+
 class Atlas_B_A_CombatFatigues_01_aucamo_ard_F: Atlas_B_A_CombatFatigues_01_aucamo_F
 {
   	scope = protected;
@@ -34,6 +36,8 @@ class Atlas_B_A_CombatFatigues_01_RolledUp_aucamo_ard_F: Atlas_B_A_CombatFatigue
 	uniformClass = Atlas_U_B_A_CombatUniform_shortsleeve_aucamo_ard;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_ard_CO.paa"};
 };
+
+
 class Atlas_B_A_CombatFatigues_01_aucamo_trp_F: Atlas_B_A_CombatFatigues_01_aucamo_F
 {
   	scope = protected;
@@ -50,46 +54,9 @@ class Atlas_B_A_CombatFatigues_01_RolledUp_aucamo_trp_F: Atlas_B_A_CombatFatigue
 };
 
 
-/*ADF Semi-Arid*/
-class Australis_B_A_CombatUniform_01_aucamo_srd_F: I_E_Uniform_01_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Australis_U_B_A_CombatUniform_srd;
-	hiddenSelectionsTextures[] =
-	{
-		//Shirt (LDF Template)
-		"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_E_Soldier_01_aucamo_srd_co.paa",
-		//Pants (AAF Template)
-		"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa",
-		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
-	};
-};
-class Australis_B_A_CombatFatigues_01_aucamo_srd_F: I_soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Australis_U_B_A_CombatUniform_aucamo_srd;
-	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa"};
-};
-class Australis_B_A_CombatFatigues_01_sweater_aucamo_srd_F: I_soldier_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
-	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo_srd;
-	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_srd_CO.paa"};
-};
-class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_srd_F: I_soldier_lite_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Australis_U_B_A_CombatUniform_shortsleeve_aucamo_srd;
-	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_srd_CO.paa"};
-};
+/*Arma 3 Atlas - ADF Sweaters*/
 
-/*ADF Arid*/
+// Combat Fatigues [ADF] (Arid, Sweater)
 class Australis_B_A_CombatFatigues_01_sweater_aucamo_ard_F: I_soldier_F
 {
   	scope = protected;
@@ -99,7 +66,8 @@ class Australis_B_A_CombatFatigues_01_sweater_aucamo_ard_F: I_soldier_F
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_ard_CO.paa"};
 };
 
-/*ADF Woodland*/
+// Combat Fatigues [ADF] (Woodland, Sweater)
+/*
 class Australis_B_A_CombatFatigues_01_sweater_aucamo_F: I_soldier_F
 {
   	scope = protected;
@@ -108,8 +76,9 @@ class Australis_B_A_CombatFatigues_01_sweater_aucamo_F: I_soldier_F
 	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_CO.paa"};
 };
+*/
 
-/*ADF Tropic*/
+// Combat Fatigues [ADF] (Tropic, Sweater)
 class Australis_B_A_CombatFatigues_01_sweater_aucamo_trp_F: I_soldier_F
 {
   	scope = protected;
@@ -119,39 +88,120 @@ class Australis_B_A_CombatFatigues_01_sweater_aucamo_trp_F: I_soldier_F
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_trp_CO.paa"};
 };
 
-/*ADF Naval*/
-class Australis_B_A_CombatFatigues_01_aucamo_navy_F: I_soldier_F
+
+/*Arma 3 Australis - ADF*/
+
+// Combat Fatigues [ADF] (AMC, BDU) (SWAP TO SFIA MODEL)
+class Australis_B_A_CombatUniformEnoch_01_aucamo_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Australis_U_B_A_CombatUniform_aucamo_navy;
-	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_nvy_CO.paa"};
+	uniformClass = Australis_U_B_A_CombatUniformEnoch_aucamo;
+	hiddenSelectionsTextures[] =
+	{
+		//Shirt (LDF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_E_Soldier_01_aucamo_co.paa",
+		//Pants (AAF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_CO.paa",
+		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
 };
-class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_navy_F: I_soldier_lite_F
+// Combat Fatigues [ADF] (AMC)
+class Australis_B_A_CombatFatigues_01_aucamo_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Australis_U_B_A_CombatUniform_shortsleeve_aucamo_navy;
+	uniformClass = Australis_U_B_A_CombatFatigues_aucamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_CO.paa"};
+};
+// Combat Fatigues [ADF] (AMC, Rolled-Up)
+class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_A_CombatFatigues_shortsleeve_aucamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_CO.paa"};
+};
+// Combat Fatigues [ADF] (AMC, Sweater)
+class Australis_B_A_CombatFatigues_01_sweater_aucamo_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
+	uniformClass = Australis_U_B_A_CombatFatigues_sweater_aucamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_CO.paa"};
+};
+
+
+/*Arma 3 Australis - ADF Naval*/
+
+// Combat Fatigues [ADF] (AMC-M, BDU)
+/*
+class Australis_B_A_CombatUniform_01_aucamo_nvy_F: I_E_Uniform_01_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_A_CombatUniform;
+	hiddenSelectionsTextures[] =
+	{
+		//Shirt (LDF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\I_E_Soldier_01_aucamo_co.paa",
+		//Pants (AAF Template)
+		"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_CO.paa",
+		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+*/
+// Combat Fatigues [ADF] (AMC-M)
+class Australis_B_A_CombatFatigues_01_aucamo_nvy_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_A_CombatFatigues_aucamo_nvy;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_nvy_CO.paa"};
 };
+// Combat Fatigues [ADF] (AMC-M, Rolled-Up)
+class Australis_B_A_CombatFatigues_01_RolledUp_aucamo_nvy_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Australis_U_B_A_CombatUniform_shortsleeve_aucamo_nvy;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_aucamo_nvy_CO.paa"};
+};
+// Combat Fatigues [ADF] (AMC-M, Sweater)
 class Australis_B_A_CombatFatigues_01_sweater_aucamo_nvy_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
 	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
-	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo_navy;
+	uniformClass = Australis_U_B_A_CombatUniform_sweater_aucamo_nvy;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_A_Soldier_01_sweater_aucamo_nvy_CO.paa"};
 };
 
 
+/* END OF RECONFIG */
 
-//NZDF
+
+/*Arma 3 Australis - NZDF*/
+
 /*NZDF Tropic*/
+//Combat Fatigues [NZDF] (MTP)
 class Australis_B_K_CombatFatigues_01_nzcamo_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = public;
 	uniformClass = Australis_U_B_K_CombatUniform_nzcamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_CO.paa"};
+};
+
+//Combat Fatigues [NZDF] (MTP, Rolled-Up)
+class Australis_B_K_CombatFatigues_01_RolledUp_nzcamo_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = public;
+	uniformClass = Australis_U_B_K_CombatUniform_shortsleeve_nzcamo;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_CO.paa"};
 };
 
@@ -163,15 +213,9 @@ class Australis_B_K_CombatFatigues_01_nzcamo_ard_F: I_soldier_F
 	uniformClass = Australis_U_B_K_CombatUniform_nzcamo_ard;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_ard_CO.paa"};
 };
-class Australis_B_K_CombatFatigues_01_RolledUp_nzcamo_ard_F: I_soldier_lite_F
-{
-  	scope = protected;
-  	scopeCurator = public;
-	uniformClass = Australis_U_B_K_CombatUniform_shortsleeve_nzcamo_ard;
-	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_K_Soldier_01_nzcamo_ard_CO.paa"};
-};
+
 /*NZDF Navy*/
-class Australis_B_K_CombatUniform_01_nzcamo_nvy_F: I_E_Uniform_01_F
+/*class Australis_B_K_CombatUniform_01_nzcamo_nvy_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -185,8 +229,11 @@ class Australis_B_K_CombatUniform_01_nzcamo_nvy_F: I_E_Uniform_01_F
 		// "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\clothing_mcam_wdl_CO.paa"
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
-};
-/*Pacfic Union - Timor Leste*/
+};*/
+
+/*Arma 3 Australis - Pacific Union (TLDF)*/
+
+
 class Australis_B_P_CombatFatigues_01_tlcamo_F: I_soldier_F
 {
   	scope = protected;
@@ -202,7 +249,37 @@ class Australis_B_P_CombatFatigues_01_RolledUp_tlcamo_F: I_soldier_lite_F
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_P_Soldier_01_tlcamo_CO.paa"};
 };
 
-/*Pacfic Union - Fiji*/
+
+/*Arma 3 Australis - Pacific Union (PNGDF)*/
+
+
+class Australis_B_P_CombatFatigues_01_pngcamo_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = public;
+	uniformClass = Australis_U_B_P_CombatUniform_pngcamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_P_Soldier_01_pngcamo_CO.paa"};
+};
+class Australis_B_P_CombatFatigues_01_RolledUp_pngcamo_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = public;
+	uniformClass = Australis_U_B_P_CombatUniform_shortsleeve_pngcamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_P_Soldier_01_pngcamo_CO.paa"};
+};
+class Australis_B_P_CombatFatigues_01_sweater_pngcamo_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	model = "\A3\Characters_F_Exp\Gendarmerie\B_GEN_Commander_F.p3d";
+	uniformClass = Australis_U_B_P_CombatUniform_sweater_pngcamo;
+	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\B_P_Soldier_01_sweater_pngcamo_CO.paa"};
+};
+
+
+/*Arma 3 Australis - Pacific Union (RFMF)*/
+
+
 class Australis_B_F_CombatUniform_fjcamo_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -219,7 +296,10 @@ class Australis_B_F_CombatUniform_fjcamo_F: I_E_Uniform_01_F
 	};
 };
 
-//France Tropic
+
+/*Arma 3 Australis - Legionnaires*/
+
+
 class Australis_B_CombatFatigues_01_tdm_F: B_Soldier_F
 {
   	scope = protected;
@@ -299,7 +379,7 @@ class O_LightFatigues_01_idcamo_F: O_A_officer_F
 };
 
 //Shadow Company Test
-class B_ShadowCombatFatigues_01_tgr_F: B_Soldier_F
+/*class B_ShadowCombatFatigues_01_tgr_F: B_Soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -330,7 +410,7 @@ class B_ShadowReconFatigues_01_tgr_F: B_Soldier_SL_F
 	uniformClass = U_B_Shadow_vest_tgr_f;
 	hiddenSelectionsTextures[] = {"\A3_Australis\Characters_F_Australis\Uniforms\Data\clothing1_shadow_CO.paa"};
 	hiddenSelectionsMaterials[] = {"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\camo.rvmat"};
-};
+};*/
 
 
 //cfgTEST Uniforms

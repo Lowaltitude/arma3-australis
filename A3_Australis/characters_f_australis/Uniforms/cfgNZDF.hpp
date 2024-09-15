@@ -17,7 +17,7 @@
 };*/
 
 /*NZDF Tropic*/
-class Australis_U_B_K_CombatUniform_nzcamo: Uniform_Base
+/*class Australis_U_B_K_CombatUniform_nzcamo: Uniform_Base
 {
 	author = "Lowaltitude";
 	scope = public;
@@ -33,14 +33,14 @@ class Australis_U_B_K_CombatUniform_nzcamo: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-};
+};*/
 
-/*NZDF Arid*/
-class Australis_U_B_K_CombatUniform_nzcamo_ard: Uniform_Base
+/*NZDF (NZMTP)*/
+class Australis_U_B_K_CombatUniform_nzcamo: Uniform_Base
 {
 	author = "Lowaltitude";
 	scope = public;
-	displayName = Combat Fatigues [NZDF] (Arid);
+	displayName = Combat Fatigues [NZDF] (MTP);
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -48,16 +48,16 @@ class Australis_U_B_K_CombatUniform_nzcamo_ard: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Australis_B_K_CombatFatigues_01_nzcamo_ard_F;
+		uniformClass = Australis_B_K_CombatFatigues_01_nzcamo_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-class Australis_U_B_K_CombatUniform_shortsleeve_nzcamo_ard: Uniform_Base
+class Australis_U_B_K_CombatUniform_shortsleeve_nzcamo: Uniform_Base
 {
 	author = "Lowaltitude";
 	scope = public;
-	displayName = Combat Fatigues [NZDF] (Arid, Rolled-Up);
+	displayName = Combat Fatigues [NZDF] (MTP, Rolled-Up);
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_B_A_CombatUniform_aucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -65,7 +65,7 @@ class Australis_U_B_K_CombatUniform_shortsleeve_nzcamo_ard: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Australis_B_K_CombatFatigues_01_RolledUp_nzcamo_ard_F;
+		uniformClass = Australis_B_K_CombatFatigues_01_RolledUp_nzcamo_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

@@ -69,7 +69,7 @@ class Australis_U_B_P_CombatUniform_pngcamo: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Australis_B_P_CombatFatigues_01_tlcamo_F;
+		uniformClass = Australis_B_P_CombatFatigues_01_pngcamo_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -86,12 +86,12 @@ class Australis_U_B_P_CombatUniform_shortsleeve_pngcamo: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Australis_B_P_CombatFatigues_01_RolledUp_tlcamo_F;
+		uniformClass = Australis_B_P_CombatFatigues_01_RolledUp_pngcamo_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
 };
-/*class Australis_U_B_P_CombatUniform_sweater_pngcamo: Uniform_Base
+class Australis_U_B_P_CombatUniform_sweater_pngcamo: Uniform_Base
 {
 	author = "Lowaltitude,abb0t,Foxtonnes";
 	scope = public;
@@ -103,8 +103,8 @@ class Australis_U_B_P_CombatUniform_shortsleeve_pngcamo: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Australis_B_A_CombatFatigues_01_sweater_aucamo_trp_F;
+		uniformClass = Australis_B_P_CombatFatigues_01_sweater_pngcamo_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
-};*/
+};

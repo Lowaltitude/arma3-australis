@@ -164,10 +164,10 @@ class Australis_B_A_Heli_Transport_02_F: Heli_Transport_02_base_F
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_E_Heli_Transport_02_F.jpg";
 	scope = public;
-	crew = Atlas_B_A_helipilot_F;
-	typicalCargo[] = {Atlas_B_A_helipilot_F};
+	crew = Australis_B_A_helipilot_F;
+	typicalCargo[] = {Australis_B_A_helipilot_F};
 	side = TWest;
-	faction = Atlas_BLU_A_F;
+	faction = Australis_BLU_AU_F;
 	textureList[] = {ADF,1};
 	hiddenSelectionsTextures[] =
 	{

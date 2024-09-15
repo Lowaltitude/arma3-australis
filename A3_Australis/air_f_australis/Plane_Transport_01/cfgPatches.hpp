@@ -11,9 +11,12 @@ class CfgPatches
 			Plane_Transport_01_base_F,
 			Plane_Transport_01_infantry_base_F,
 			Plane_Transport_01_vehicle_base_F,
-            // ADF
+            //Arma 3 Atlas
             Atlas_B_A_Plane_Transport_01_infantry_F,
-            Atlas_B_A_Plane_Transport_01_vehicle_F
+            Atlas_B_A_Plane_Transport_01_vehicle_F,
+			//ADF
+			Australis_B_A_Plane_Transport_01_infantry_F,
+			Australis_B_A_Plane_Transport_01_vehicle_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

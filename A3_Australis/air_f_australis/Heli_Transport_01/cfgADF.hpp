@@ -1,5 +1,5 @@
 /* ADF */
-class Atlas_B_A_Heli_Transport_01_F: Heli_Transport_01_base_F
+class Australis_B_A_Heli_Transport_01_F: Heli_Transport_01_base_F
 {
 	author = $STR_A3_A_BranFlakes;
     class SimpleObject
@@ -132,9 +132,9 @@ class Atlas_B_A_Heli_Transport_01_F: Heli_Transport_01_base_F
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_Heli_Transport_01_Base_F0;
 	side = TWest;
-	faction = Atlas_BLU_A_F;
-	crew = Atlas_B_A_helipilot_F;
-	typicalCargo[] = {Atlas_B_A_helipilot_F};
+	faction = Australis_BLU_AU_F;
+	crew = Australis_B_A_helipilot_F;
+	typicalCargo[] = {Australis_B_A_helipilot_F};
 	availableForSupportTypes[] =
 	{
 		Drop,
@@ -153,14 +153,14 @@ class Atlas_B_A_Heli_Transport_01_F: Heli_Transport_01_base_F
 		class CopilotTurret: CopilotTurret{};
 		class MainTurret: MainTurret
 		{
-		    gunnerType = Atlas_B_A_helicrew_F;
+		    gunnerType = Australis_B_A_helicrew_F;
 
             /* Weapons & Ammunition */
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
 		};
 		class RightDoorGun: RightDoorGun
 		{
-		    gunnerType = Atlas_B_A_helicrew_F;
+		    gunnerType = Australis_B_A_helicrew_F;
 
             /* Weapons & Ammunition */
 			magazines[] = {mag_2(1000Rnd_762x51_Belt_T_Yellow_Splash)};
@@ -178,20 +178,4 @@ class Atlas_B_A_Heli_Transport_01_F: Heli_Transport_01_base_F
 	{
 		weap_xx(arifle_AUG_F,2);
 	};
-};
-
-/* ADF Arid */
-class Atlas_B_A_Heli_Transport_01_ard_F: Atlas_B_A_Heli_Transport_01_F
-{
-    faction = Atlas_BLU_A_ard_F;
-	crew = Atlas_B_A_helipilot_ard_F;
-	typicalCargo[] = {Atlas_B_A_helipilot_ard_F};
-};
-
-/* ADF Tropic */
-class Atlas_B_A_Heli_Transport_01_trp_F: Atlas_B_A_Heli_Transport_01_F
-{
-    faction = Atlas_BLU_A_trp_F;
-	crew = Atlas_B_A_helipilot_trp_F;
-	typicalCargo[] = {Atlas_B_A_helipilot_trp_F};
 };
