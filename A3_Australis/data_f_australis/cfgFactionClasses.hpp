@@ -121,6 +121,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Men (Field Force)"; //$STR_A3_Australis_Men_Field
 	};
+	class EdSubCat_Personnel_Field
+	{
+		displayName = "Men (NORFORCE)"; //$STR_A3_Australis_Men_NORFORCE
+	};
 	class EdSubCat_Personnel_PapuaNewGuinea
 	{
 		displayName = "Men (New Caledonia)"; //$STR_A3_Australis_Peacekeepers_PNG
