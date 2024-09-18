@@ -10,6 +10,7 @@ class CfgFactionClasses
         icon = ""; //Custom Icon
 	};*/
 	
+	/* BLUFOR */
 	class Australis_BLU_AU_F
 	{
 		displayName = "ADF (Australis)";
@@ -28,21 +29,14 @@ class CfgFactionClasses
 	};
 	class Australis_BLU_Pacific_F
 	{
-		displayName = "Pacific Union Peacekeepers";
+		displayName = "Pacific Union";
         priority = 3;
         side = TWest;
         icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_PU_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_pu_ca.paa";
 	};
-	//class Australis_BLU_Gendarme
-	/*
-	class Australis_BLU_Serco_F
-	{
-		displayName = "Defence Services";
-        priority = 3;
-        side = TWest;
-        icon = "";	//Flag and logo pending
-	};
+	
+	/* OPFOR */
 	class Australis_OPF_ID_F
 	{
 		displayName = "Indonesia";
@@ -51,6 +45,36 @@ class CfgFactionClasses
         icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_ID_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_id_ca.paa";
 	};
+	
+	/* INDFOR */
+	class Australis_IND_MRC_F
+	{
+		displayName = "Mercernaries";
+        priority = 3;
+        side = TIndep;
+        icon = ""; //Flag yet to be made
+	};
+	
+	/* CIVIL */
+	class Australis_CIV_IntRescue_F
+	{
+		displayName = "IDRO";
+		priority = 2;
+		side = TCiv;
+		//icon =;
+		//flag = ;
+	};
+	
+	
+	/*
+	class Australis_BLU_Serco_F
+	{
+		displayName = "Defence Services";
+        priority = 3;
+        side = TWest;
+        icon = "";	//Flag and logo pending
+	};
+
 	class O_TPR_F
 	{
 		displayName = "Pirates (Tanoan)";
@@ -91,12 +115,20 @@ class CfgEditorSubcategories
 {
 	class EdSubCat_Personnel_Navy
 	{
-		displayName = "Men (Navy)";
+		displayName = "Men (Navy)"; //$STR_A3_Australis_Men_Nvy
+	};
+	class EdSubCat_Personnel_Field
+	{
+		displayName = "Men (Field Force)"; //$STR_A3_Australis_Men_Field
+	};
+	class EdSubCat_Personnel_PapuaNewGuinea
+	{
+		displayName = "Men (New Caledonia)"; //$STR_A3_Australis_Peacekeepers_PNG
 	};
 	class EdSubCat_Personnel_NewCaledonia
 	{
 		displayName = "Men (New Caledonia)"; //$STR_A3_Australis_Peacekeepers_NC
-	};
+	}; 
 	class EdSubCat_Personnel_Fiji
 	{
 		displayName = "Men (Fiji)"; //$STR_A3_Australis_Peacekeepers_FJ
