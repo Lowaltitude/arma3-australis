@@ -50,59 +50,6 @@ class Australis_B_G_Soldier_Recon_Base_F: Australis_B_G_Soldier_Base_F
 	detectSkill = 18;
 };
 
-//	Rifleman
-class Australis_B_G_Soldier_F: Australis_B_G_Soldier_Recon_Base_F
-{
-	author = $STR_A3_A_Lowaltitude;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_Soldier_F.jpg";
-    scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
-	uniformClass = Atlas_U_B_H_Soldier_2_F;
-	backpack = B_TacticalPack_oli;
-	linkedItems[] =
-	{
-		V_SmershVest_01_F,
-		H_Cap_oli,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	respawnLinkedItems[] =
-	{
-		V_SmershVest_01_F,
-		H_Cap_oli,
-		DefaultManLinkedItems,
-		NVGoggles
-	};
-	weapons[] =
-	{
-		Aegis_arifle_M4A1_short_holo_flash_F,
-		hgun_ABPM3_F,
-		DefaultManWeapons
-	};
-	respawnWeapons[] =
-	{
-		Aegis_arifle_M4A1_short_holo_flash_F,
-		hgun_ABPM3_F,
-		DefaultManWeapons
-	};
-	magazines[] =
-	{
-		mag_10(30Rnd_556x45_Stanag),
-        mag_2(16Rnd_9x21_Mag_v2),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-	};
-	respawnMagazines[] =
-	{
-		mag_10(30Rnd_556x45_Stanag),
-        mag_2(16Rnd_9x21_Mag_v2),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell)
-	};
-	role = Rifleman;
-};
-
 //	Officer
 class Australis_B_G_Officer_F: Australis_B_G_Soldier_base_F
 {
