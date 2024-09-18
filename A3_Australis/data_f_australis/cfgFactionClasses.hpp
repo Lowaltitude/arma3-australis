@@ -42,7 +42,7 @@ class CfgFactionClasses
 		displayName = "Indonesia";
         priority = 3;
         side = TEast;
-        icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_ID_CA.paa";
+        //icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_ID_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_id_ca.paa";
 	};
 	
@@ -51,8 +51,8 @@ class CfgFactionClasses
 	{
 		displayName = "Mercernaries";
         priority = 3;
-        side = TIndep;
-        icon = ""; //Flag yet to be made
+        side = TGuerrila;
+        //icon = ""; //Flag yet to be made
 	};
 	
 	/* CIVIL */
@@ -60,7 +60,7 @@ class CfgFactionClasses
 	{
 		displayName = "IDRO";
 		priority = 2;
-		side = TCiv;
+		side = TCivilian;
 		//icon =;
 		//flag = ;
 	};

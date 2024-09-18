@@ -35,7 +35,7 @@ class CfgVehicles
 	#include "cfgADF.hpp"			// ADF (Australis)
 	#include "cfgNZDF.hpp"			// New Zealand
 	#include "cfgGendarmerie.hpp"	// Gendarmerie Special Task Force
-	#include "cfgPacfic.hpp"		// Pacific Union
+	#include "cfgPacific.hpp"		// Pacific Union
 	#include "cfgIndonesia.hpp"		// Indonesia (CSAT)
 	#include "cfgIDRO.hpp"			// International Disaster Relief Organisation
 
