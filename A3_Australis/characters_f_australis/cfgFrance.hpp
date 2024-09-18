@@ -1,10 +1,10 @@
 // Arma 3 Australis Characters_F_Australis cfgPacific
-/*Pacific Union > Men (PNG)*/
-class Australis_B_P_Man_Base_F: B_Soldier_base_F
+/* France > Men (New Caledonia) or France (Pacific)*/
+class Australis_B_F_Man_Base_F: B_Soldier_base_F
 {
     scope = private;
     scopeCurator = private;
-	faction = Australis_BLU_Pacific_F;
+	faction = Australis_BLU_Pacific_F; //Atlas_Legionnaires
 	editorSubcategory = ;
 	genericNames = AustralianMen;
 	identityTypes[] =
@@ -16,11 +16,11 @@ class Australis_B_P_Man_Base_F: B_Soldier_base_F
 		G_NATO_default
 	};
 };
-class Australis_B_P_Soldier_base_F: Australis_B_P_Man_Base_F
+class Australis_B_F_Soldier_base_F: Australis_B_F_Man_Base_F
 {
 	uniformClass = Atlas_U_B_A_CombatUniform_aucamo;
 };
-class Australis_B_P_Soldier_F: Australis_B_P_Soldier_base_F
+class Australis_B_F_Soldier_F: Australis_B_F_Soldier_base_F
 {
 	author = $STR_A3_A_Lowaltitude;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_A_Soldier_F.jpg";
@@ -70,7 +70,3 @@ class Australis_B_P_Soldier_F: Australis_B_P_Soldier_base_F
 	};
 	role = Rifleman;
 };
-
-/*Pacific Union > Men (Fiji)*/
-
-/*Pacific Union > Men (Timor Leste)*/
