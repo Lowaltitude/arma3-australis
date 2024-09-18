@@ -31,6 +31,10 @@ class CfgVehicles
     {
         class EventHandlers;
     };
+	class O_Soldier_base_F: SoldierWB
+    {
+        class EventHandlers;
+    };
     //#include "cfgADF_Atlas.hpp"	// ADF - Atlas Patch
 	#include "cfgADF.hpp"			// ADF (Australis)
 	#include "cfgNZDF.hpp"			// New Zealand

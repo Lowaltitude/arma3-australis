@@ -1,11 +1,10 @@
 // Arma 3 Australis Characters_F_Australis cfgIndonesia
 /* Indonesia (CSAT) */
-class Australis_O_I_Man_Base_F: B_Soldier_base_F
+class Australis_O_I_Man_Base_F: O_Soldier_base_F
 {
     scope = private;
     scopeCurator = private;
 	faction = Australis_OPF_ID_F;
-	editorSubcategory = ;
 	genericNames = AustralianMen;
 	identityTypes[] =
 	{

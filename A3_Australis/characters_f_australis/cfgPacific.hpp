@@ -5,7 +5,6 @@ class Australis_B_P_Man_Base_F: B_Soldier_base_F
     scope = private;
     scopeCurator = private;
 	faction = Australis_BLU_Pacific_F;
-	editorSubcategory = ;
 	genericNames = AustralianMen;
 	identityTypes[] =
 	{

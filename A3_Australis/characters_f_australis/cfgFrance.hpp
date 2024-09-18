@@ -1,11 +1,10 @@
 // Arma 3 Australis Characters_F_Australis cfgPacific
-/* France > Men (New Caledonia) or France (Pacific)*/
+/* France/Pacific Union > Men (New Caledonia) or France (Pacific)*/
 class Australis_B_F_Man_Base_F: B_Soldier_base_F
 {
     scope = private;
     scopeCurator = private;
 	faction = Australis_BLU_Pacific_F; //Atlas_Legionnaires
-	editorSubcategory = ;
 	genericNames = AustralianMen;
 	identityTypes[] =
 	{

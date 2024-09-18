@@ -1,11 +1,10 @@
 // Arma 3 Australis Characters_F_Australis cfgIDRO
 /* IDRO */
-class Australis_C_I_Man_Base_F: B_Soldier_base_F
+class Australis_C_I_Man_Base_F: Civilian_F
 {
     scope = private;
     scopeCurator = private;
 	faction = Australis_CIV_IntRescue_F;
-	editorSubcategory = ;
 	genericNames = AustralianMen;
 	identityTypes[] =
 	{
