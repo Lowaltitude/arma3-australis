@@ -27,6 +27,14 @@ class CfgFactionClasses
         icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_NZ_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_nz_CA.paa";
 	};
+	class Australis_BLU_FR_F 
+	{
+		displayName = "France (Pacific)";
+        priority = 3;
+        side = TWest;
+        //icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_NZ_CA.paa"; // Based off the FANC insignia
+		//flag = "\A3_Australis\Data_F_Australis\Flags\flag_nz_CA.paa"; // Atlas/Aegis French Flag
+	};
 	class Australis_BLU_Pacific_F
 	{
 		displayName = "Pacific Union";
