@@ -43,6 +43,14 @@ class CfgFactionClasses
         icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_PU_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_pu_ca.paa";
 	};
+	class Australis_BLU_Dynamo_F
+	{
+		displayName = "Dynamo Security";
+        priority = 3;
+        side = TWest;
+        //icon = "";	//Flag and logo pending
+		//flag = "\A3_Australis\Data_F_Australis\Flags\flag_pu_ca.paa";
+	};
 	
 	/* OPFOR */
 	class Australis_OPF_ID_F
@@ -53,11 +61,26 @@ class CfgFactionClasses
         //icon = "\A3_Australis\Data_F_Australis\FactionIcons\CfgFactionClasses_BLU_ID_CA.paa";
 		flag = "\A3_Australis\Data_F_Australis\Flags\flag_id_ca.paa";
 	};
+	class Australis_OPF_C_F
+	{
+		displayName = "Syndikat";
+        priority = 3;
+        side = TEast;
+		icon = "\a3\Data_F_Exp\FactionIcons\icon_SYND_CA.paa";
+		flag = "\a3\Data_F_Exp\Flags\flag_SYND_CO.paa";
+	};
 	
 	/* INDFOR */
 	class Australis_IND_MRC_F
 	{
 		displayName = "Mercernaries";
+        priority = 3;
+        side = TGuerrila;
+        //icon = ""; //Flag yet to be made
+	};
+	class Australis_IND_KA_F
+	{	
+		displayName = "Karpanga";
         priority = 3;
         side = TGuerrila;
         //icon = ""; //Flag yet to be made
@@ -72,17 +95,18 @@ class CfgFactionClasses
 		//icon =;
 		//flag = ;
 	};
+	class Australis_CIV_GSO_F
+	{
+		displayName = "GSO";
+		priority = 2;
+		side = TCivilian;
+		//icon =;
+		//flag = ;
+	};
 	
 	
 	/*
-	class Australis_BLU_Serco_F
-	{
-		displayName = "Defence Services";
-        priority = 3;
-        side = TWest;
-        icon = "";	//Flag and logo pending
-	};
-
+	
 	class O_TPR_F
 	{
 		displayName = "Pirates (Tanoan)";
@@ -97,13 +121,6 @@ class CfgFactionClasses
         side = 2;
         icon = "A3\data_f_australis\flags\flag_au_ca.paa";		
 	};
-	class I_MRC_F
-	{
-		displayName = "Mercernaries";
-        priority = 3;
-        side = 2;
-        icon = ""; //Flag yet to be made
-	};
 	class I_TPR_F
 	{
 		displayName = "Pirates (Tanoan)";
@@ -111,13 +128,15 @@ class CfgFactionClasses
         side = 2;
         icon = ""; //Use Horizon Islands flag
 	};
-	class I_Eco_F
+	class Australis_OPF_Eco_F
 	{
 		displayName = "Ecowarriors";
         priority = 3;
         side = 2;
         icon = "A3\data_f_australis\flags\flag_eco_ca.paa"; //flag yet to be made		
-	};*/
+	};
+	
+	*/
 };
 class CfgEditorSubcategories
 {
@@ -129,13 +148,17 @@ class CfgEditorSubcategories
 	{
 		displayName = "Men (Field Force)"; //$STR_A3_Australis_Men_Field
 	};
-	class EdSubCat_Personnel_Field
+	class EdSubCat_Personnel_Commandos
+	{
+		displayName = "Men (Commandos)"; //$STR_A3_Australis_Men_Commandos
+	};
+	class EdSubCat_Personnel_NORFORCE
 	{
 		displayName = "Men (NORFORCE)"; //$STR_A3_Australis_Men_NORFORCE
 	};
 	class EdSubCat_Personnel_PapuaNewGuinea
 	{
-		displayName = "Men (New Caledonia)"; //$STR_A3_Australis_Peacekeepers_PNG
+		displayName = "Men (Papua New Guinea)"; //$STR_A3_Australis_Peacekeepers_PNG
 	};
 	class EdSubCat_Personnel_NewCaledonia
 	{
